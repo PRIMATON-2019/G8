@@ -44,13 +44,13 @@ namespace mindruner2
                 {"C", "2", "¿Quienes dominaban Perú hasta la llegada de los españoles?", "a. Los Mayas", "b. Los Incas.", "c. Los Aztecas.", "b"  },
                 {"C", "3", "¿En que provincia está la ciudad de Trelew?", "a. Rio Negro.", "b. Chubut.", "c. Santa Cruz.", "b"  },
                 {"C", "4", "¿En que país está la región de Transilvania, patria de Drácula?", "a. Rumania.", "b. Alemania.","c. Rusia.", "a"  },
-                {"C", "5", "¿En que país es el quechua una lengua oficial?", "a. Peru.","b. Paraguay.", "c. Bolivia.", "a" }
+                {"C", "5", "¿En que país es el quechua una lengua oficial?", "a. Peru.","b. Paraguay.", "c. Bolivia.", "a" },
 
 
                 {"R", "0", "¿Cuantos nanosegundos hay en un segundo?","a. Cien millones.", "b. Mil millones.", "c. Diez mil millones.", "b" } ,
                 {"R", "1", "¿Quien inventó la radio?", "a. Graham Bell","b. Marconi.", "c. Edison.", "b"},
                 {"R", "2", "Una piara es un conjunto ¿de que?","a. De peces.","b. De cerdos.","c. De perros.", "b" },
-                {"R", "3", "¿Cual es el planeta más denso del sistema solar?", "a. Plutón.","b. Mercurio.","c. La Tierra.", "c" }.
+                {"R", "3", "¿Cual es el planeta más denso del sistema solar?", "a. Plutón.","b. Mercurio.","c. La Tierra.", "c" },
                 {"R", "4", "¿Que animal es la araña de mar?", "a.La ostra.", "b. La langosta.", "c. La centolla.", "c" },
                 {"R", "5", "¿Que estudia un herpetólogo?", "a. Reptiles.","b. Cavernas.","C. Herpes.", "a" } };
     }
