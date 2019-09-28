@@ -12,6 +12,8 @@ namespace mindruner2
 {
     public partial class Form2 : Form
     {
+        dado d1 = new dado();
+        dado d2= new dado(); 
         public Form2()
         {
             InitializeComponent();
@@ -19,7 +21,8 @@ namespace mindruner2
 
         private void Button1_Click(object sender, EventArgs e)
         {
-
+           // dado.lanzar();
+            
         }
     }
 }

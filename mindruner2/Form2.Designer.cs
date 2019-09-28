@@ -28,24 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnlanzar = new System.Windows.Forms.Button();
             this.pbdado2 = new System.Windows.Forms.PictureBox();
             this.pbdado1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbdado2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbdado1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btnlanzar
             // 
-            this.button1.BackColor = System.Drawing.Color.Fuchsia;
-            this.button1.Font = new System.Drawing.Font("Comic Sans MS", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(263, 131);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(81, 61);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Tirar dados";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            this.btnlanzar.BackColor = System.Drawing.Color.Fuchsia;
+            this.btnlanzar.Font = new System.Drawing.Font("Comic Sans MS", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnlanzar.Location = new System.Drawing.Point(263, 131);
+            this.btnlanzar.Name = "btnlanzar";
+            this.btnlanzar.Size = new System.Drawing.Size(81, 61);
+            this.btnlanzar.TabIndex = 3;
+            this.btnlanzar.Text = "Tirar dados";
+            this.btnlanzar.UseVisualStyleBackColor = false;
+            this.btnlanzar.Click += new System.EventHandler(this.Button1_Click);
             // 
             // pbdado2
             // 
@@ -71,7 +71,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumSpringGreen;
             this.ClientSize = new System.Drawing.Size(619, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnlanzar);
             this.Controls.Add(this.pbdado2);
             this.Controls.Add(this.pbdado1);
             this.Name = "Form2";
@@ -86,6 +86,6 @@
 
         private System.Windows.Forms.PictureBox pbdado1;
         private System.Windows.Forms.PictureBox pbdado2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnlanzar;
     }
 }
