@@ -8,7 +8,7 @@ namespace mindruner2
     
 {
    
-    class preguntas
+   public class preguntas
     {
         
         string[,] pregunta = new string[,] { { "N", "0", "¿Cual es la relacion entre 3 integrantes del grupo de música Airbag?", "a. Primos.", "b. Hermanos.", "c. Amigos.", "b" } ,
