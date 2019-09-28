@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dado.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +76,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -88,6 +90,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\lado1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\lado2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\lado3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\lado4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\lado5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\lado6.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
