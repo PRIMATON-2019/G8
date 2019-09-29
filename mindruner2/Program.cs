@@ -8,6 +8,8 @@ namespace mindruner2
 {
     static class Program
     {
+        public static object Form2 { get; internal set; }
+
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>

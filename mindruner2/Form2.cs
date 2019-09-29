@@ -21,7 +21,10 @@ namespace mindruner2
 
         private void Button1_Click(object sender, EventArgs e)
         {
-           // dado.lanzar();
+            Form gif = new Gif_del_dado();
+            gif.Show();
+           
+            // dado.lanzar();
             
         }
     }
