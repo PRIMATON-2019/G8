@@ -63,6 +63,56 @@ namespace mindruner2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3181290_640px {
+            get {
+                object obj = ResourceManager.GetObject("3181290_640px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8EC {
+            get {
+                object obj = ResourceManager.GetObject("8EC", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Artwork_Peach__NSMBUD_ {
+            get {
+                object obj = ResourceManager.GetObject("Artwork_Peach_(NSMBUD)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap config_minimos_Arturo {
+            get {
+                object obj = ResourceManager.GetObject("config_minimos_Arturo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Ic6GZ7N {
+            get {
+                object obj = ResourceManager.GetObject("Ic6GZ7N", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap lado1 {
             get {
                 object obj = ResourceManager.GetObject("lado1", resourceCulture);
@@ -116,6 +166,56 @@ namespace mindruner2.Properties {
         internal static System.Drawing.Bitmap lado6 {
             get {
                 object obj = ResourceManager.GetObject("lado6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mario {
+            get {
+                object obj = ResourceManager.GetObject("mario", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SuperMarioParty_DonkeyKong {
+            get {
+                object obj = ResourceManager.GetObject("SuperMarioParty_DonkeyKong", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap the_legend_of_zelda_link_wind_waker {
+            get {
+                object obj = ResourceManager.GetObject("the-legend-of-zelda-link-wind-waker", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TSR_Sonic {
+            get {
+                object obj = ResourceManager.GetObject("TSR_Sonic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap y4sRZec {
+            get {
+                object obj = ResourceManager.GetObject("y4sRZec", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

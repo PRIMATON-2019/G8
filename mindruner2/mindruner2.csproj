@@ -118,5 +118,35 @@
   <ItemGroup>
     <None Include="imagenes\lado6.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8EC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3181290_640px.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artwork_Peach_%28NSMBUD%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\config_minimos_Arturo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ic6GZ7N.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SuperMarioParty_DonkeyKong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\the-legend-of-zelda-link-wind-waker.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TSR_Sonic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\y4sRZec.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
