@@ -29,8 +29,8 @@ namespace mindruner2
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            Form segundoformulario = new Form2();
-            segundoformulario.Show();
+            Form tercerformulario = new Form3jugadores();
+            tercerformulario.Show();
         }
     }
 
