@@ -13,7 +13,6 @@ namespace mindruner2
     public partial class Form2 : Form
     {
         dado d1 = new dado();
-        dado d2= new dado(); 
         public Form2()
         {
             InitializeComponent();
@@ -21,11 +20,46 @@ namespace mindruner2
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            Form gif = new Gif_del_dado();
-            gif.Show();
-           
-            // dado.lanzar();
             
+
+            int nro = d1.lanzar();
+            {
+                switch (nro)
+                {
+                    case 1:
+
+                        pb.Image = mindruner2.Properties.Resources.lado1;
+                        break;
+
+                    case 2:
+
+                        pb.Image = mindruner2.Properties.Resources.lado2;
+                        break;
+
+                    case 3:
+
+                        pb.Image = mindruner2.Properties.Resources.lado3;
+                        break;
+
+                    case 4:
+
+                        pb.Image = mindruner2.Properties.Resources.lado4;
+                        break;
+
+                    case 5:
+
+                        pb.Image = mindruner2.Properties.Resources.lado5;
+                        break;
+
+                    case 6:
+
+                        pb.Image = mindruner2.Properties.Resources.lado6;
+                        break;
+                }
+            }
+
+
         }
     }
 }
+
