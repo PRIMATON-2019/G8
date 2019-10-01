@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.btnlanzar = new System.Windows.Forms.Button();
-            this.pbdado1 = new System.Windows.Forms.PictureBox();
+            this.pb = new System.Windows.Forms.PictureBox();
             this.lbljugador1 = new System.Windows.Forms.Label();
             this.lbljugador2 = new System.Windows.Forms.Label();
             this.lbljugador3 = new System.Windows.Forms.Label();
@@ -38,7 +38,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pbdado1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -57,15 +57,15 @@
             this.btnlanzar.UseVisualStyleBackColor = false;
             this.btnlanzar.Click += new System.EventHandler(this.Button1_Click);
             // 
-            // pbdado1
+            // pb
             // 
-            this.pbdado1.Image = global::mindruner2.Properties.Resources.lado1;
-            this.pbdado1.Location = new System.Drawing.Point(466, 12);
-            this.pbdado1.Name = "pbdado1";
-            this.pbdado1.Size = new System.Drawing.Size(141, 121);
-            this.pbdado1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbdado1.TabIndex = 1;
-            this.pbdado1.TabStop = false;
+            this.pb.Image = global::mindruner2.Properties.Resources.lado1;
+            this.pb.Location = new System.Drawing.Point(454, 29);
+            this.pb.Name = "pb";
+            this.pb.Size = new System.Drawing.Size(141, 121);
+            this.pb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb.TabIndex = 1;
+            this.pb.TabStop = false;
             // 
             // lbljugador1
             // 
@@ -150,10 +150,10 @@
             this.Controls.Add(this.lbljugador2);
             this.Controls.Add(this.lbljugador1);
             this.Controls.Add(this.btnlanzar);
-            this.Controls.Add(this.pbdado1);
+            this.Controls.Add(this.pb);
             this.Name = "Form2";
             this.Text = "Form2";
-            ((System.ComponentModel.ISupportInitialize)(this.pbdado1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -165,7 +165,7 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pbdado1;
+        private System.Windows.Forms.PictureBox pb;
         private System.Windows.Forms.Button btnlanzar;
         private System.Windows.Forms.Label lbljugador1;
         private System.Windows.Forms.Label lbljugador2;

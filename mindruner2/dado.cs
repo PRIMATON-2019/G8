@@ -14,7 +14,7 @@ namespace mindruner2
         public int lanzar ()
         {
             numero = r.Next(6) + 1;
-return numero;
+            return numero;
         }
 
        
