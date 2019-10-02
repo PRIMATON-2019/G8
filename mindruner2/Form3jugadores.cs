@@ -16,6 +16,7 @@ namespace mindruner2
         {
             InitializeComponent();
         }
+        Lista Jugadores = new Lista();
 
         private void TextBox2_TextChanged(object sender, EventArgs e)
         {
@@ -28,6 +29,14 @@ namespace mindruner2
         }
 
         private void Button1_Click(object sender, EventArgs e)
+        {
+            
+             Jugadores.Carga(txt1.Text, txt2.Text, txt3.Text, txt4.Text);
+            lbl6.Text = Jugadores.Mostrar();
+            
+        }
+
+        private void Form3jugadores_Load(object sender, EventArgs e)
         {
 
         }

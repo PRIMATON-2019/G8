@@ -32,16 +32,17 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txt1 = new System.Windows.Forms.TextBox();
+            this.txt2 = new System.Windows.Forms.TextBox();
+            this.txt3 = new System.Windows.Forms.TextBox();
+            this.txt4 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.lbl6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -92,38 +93,38 @@
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
             // 
-            // textBox1
+            // txt1
             // 
-            this.textBox1.Location = new System.Drawing.Point(75, 300);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(128, 36);
-            this.textBox1.TabIndex = 4;
+            this.txt1.Location = new System.Drawing.Point(75, 300);
+            this.txt1.Multiline = true;
+            this.txt1.Name = "txt1";
+            this.txt1.Size = new System.Drawing.Size(128, 36);
+            this.txt1.TabIndex = 4;
             // 
-            // textBox2
+            // txt2
             // 
-            this.textBox2.Location = new System.Drawing.Point(249, 300);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(128, 36);
-            this.textBox2.TabIndex = 5;
-            this.textBox2.TextChanged += new System.EventHandler(this.TextBox2_TextChanged);
+            this.txt2.Location = new System.Drawing.Point(249, 300);
+            this.txt2.Multiline = true;
+            this.txt2.Name = "txt2";
+            this.txt2.Size = new System.Drawing.Size(128, 36);
+            this.txt2.TabIndex = 5;
+            this.txt2.TextChanged += new System.EventHandler(this.TextBox2_TextChanged);
             // 
-            // textBox3
+            // txt3
             // 
-            this.textBox3.Location = new System.Drawing.Point(432, 300);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(128, 36);
-            this.textBox3.TabIndex = 6;
+            this.txt3.Location = new System.Drawing.Point(432, 300);
+            this.txt3.Multiline = true;
+            this.txt3.Name = "txt3";
+            this.txt3.Size = new System.Drawing.Size(128, 36);
+            this.txt3.TabIndex = 6;
             // 
-            // textBox4
+            // txt4
             // 
-            this.textBox4.Location = new System.Drawing.Point(604, 300);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(128, 36);
-            this.textBox4.TabIndex = 7;
+            this.txt4.Location = new System.Drawing.Point(604, 300);
+            this.txt4.Multiline = true;
+            this.txt4.Name = "txt4";
+            this.txt4.Size = new System.Drawing.Size(128, 36);
+            this.txt4.TabIndex = 7;
             // 
             // label1
             // 
@@ -193,29 +194,40 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
+            // lbl6
+            // 
+            this.lbl6.AutoSize = true;
+            this.lbl6.Location = new System.Drawing.Point(72, 416);
+            this.lbl6.Name = "lbl6";
+            this.lbl6.Size = new System.Drawing.Size(46, 17);
+            this.lbl6.TabIndex = 14;
+            this.lbl6.Text = "label6";
+            // 
             // Form3jugadores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::mindruner2.Properties.Resources.Ic6GZ7N;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1063, 748);
+            this.Controls.Add(this.lbl6);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt4);
+            this.Controls.Add(this.txt3);
+            this.Controls.Add(this.txt2);
+            this.Controls.Add(this.txt1);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form3jugadores";
             this.Text = "Form3jugadores";
+            this.Load += new System.EventHandler(this.Form3jugadores_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -231,15 +243,16 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txt1;
+        private System.Windows.Forms.TextBox txt2;
+        private System.Windows.Forms.TextBox txt3;
+        private System.Windows.Forms.TextBox txt4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lbl6;
     }
 }

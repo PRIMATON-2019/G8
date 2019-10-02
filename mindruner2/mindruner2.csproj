@@ -71,6 +71,7 @@
     <Compile Include="Gif del dado.Designer.cs">
       <DependentUpon>Gif del dado.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lista.cs" />
     <Compile Include="preguntas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
