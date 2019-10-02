@@ -6,19 +6,18 @@ using System.Threading.Tasks;
 
 namespace mindruner2
 {
+    
    public class dado
     {
-        Random r;
-        private int numero;
 
-        public int lanzar ()
+        public int numero;
+        Random rnd = new Random();
+
+        public void lanzar ()
         {
-            numero = r.Next(6) + 1;
-            return numero;
+            numero = rnd.Next(1, 7);
         }
+      
+    }
 
-       
-        
-
-        }
 }

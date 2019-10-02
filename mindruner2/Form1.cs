@@ -29,7 +29,7 @@ namespace mindruner2
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            Form tercerformulario = new Form3jugadores();
+            Form tercerformulario = new Form2();
             tercerformulario.Show();
         }
     }

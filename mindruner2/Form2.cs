@@ -20,10 +20,14 @@ namespace mindruner2
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            
-
-            int nro = d1.lanzar();
+            // int posicion ;
+            for (int i = 0; i < 5; i++)
             {
+
+
+                d1.lanzar();
+                int nro = d1.numero;
+
                 switch (nro)
                 {
                     case 1:
@@ -56,10 +60,37 @@ namespace mindruner2
                         pb.Image = mindruner2.Properties.Resources.lado6;
                         break;
                 }
+
+
+                switch (i)
+                {
+                    case 1:
+                        
+                            pictureBox1.Image = pb.Image;
+                            break;
+                        
+
+                    case 2:
+                        
+                            pictureBox2.Image = pb.Image;
+                        
+                            break;
+
+                    case 3:
+
+                        pictureBox3.Image = pb.Image;
+
+                        break;
+
+                    case 4:
+
+                        pictureBox4.Image = pb.Image;
+
+                        break;
+                }
             }
-
-
         }
+
     }
 }
 
