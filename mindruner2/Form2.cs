@@ -55,7 +55,9 @@ namespace mindruner2
                         pb.Image = mindruner2.Properties.Resources.lado6;
                         break;
                 }
+            pictureBox1.Image = pb.Image;
         }
+
     }
 }
 
