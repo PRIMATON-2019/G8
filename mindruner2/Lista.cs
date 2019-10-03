@@ -18,8 +18,8 @@ namespace mindruner2
         #region Metodos
         public string[,] Carga(string ParametroJugador1, string ParametroJugador2, string ParametroJugador3, string ParametroJugador4)
         {
-            Jugador[ProximaPosicion,0] = ParametroJugador1;
-            Jugador[ProximaPosicion,1] = Convert.ToString(1);
+            Jugador[ProximaPosicion, 0] = ParametroJugador1;
+            Jugador[ProximaPosicion, 1] = Convert.ToString(1);
             Jugador[ProximaPosicion, 2] = Convert.ToString(puntaje1);
             ProximaPosicion++;
             Jugador[ProximaPosicion, 0] = ParametroJugador2;

@@ -5,12 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace mindruner2
-    
+
 {
-   
-   public class preguntas
+
+    public class preguntas
     {
-        
+
         string[,] pregunta = new string[,] { { "N", "0", "¿Cual es la relacion entre 3 integrantes del grupo de música Airbag?", "a. Primos.", "b. Hermanos.", "c. Amigos.", "b" } ,
                 {"N", "1", "¿Cual es el nombre del Hit del grupo de música Los Tipitos?", "a. Hechizo.", "b. Gualicho.", "c. Brujeria.", "c" } ,
                 {"N", "2", "¿Que instrumento tocaba Louis Armstrong?", "a. El piano.","b. El saxo.", "c. La trompeta.", "c" } ,

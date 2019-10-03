@@ -83,6 +83,16 @@ namespace mindruner2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ani {
+            get {
+                object obj = ResourceManager.GetObject("ani", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Artwork_Peach__NSMBUD_ {
             get {
                 object obj = ResourceManager.GetObject("Artwork_Peach_(NSMBUD)", resourceCulture);

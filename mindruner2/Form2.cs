@@ -25,85 +25,87 @@ namespace mindruner2
         private void Button1_Click(object sender, EventArgs e)
         {
 
-           
-                d1.lanzar();
-                d2.lanzar();
-                d3.lanzar();
-                d4.lanzar();
 
-            for (int i = 0; i < 4; i++)
+            d1.lanzar();
+            d2.lanzar();
+            d3.lanzar();
+            d4.lanzar();
+
+            for (int i = 0; i < 10; i++)
             {
 
-            
 
-            if (d1.numero == d2.numero)
-            {
-                d2.lanzar();
 
-            }
+                if (d1.numero == d2.numero)
+                {
+                    d2.lanzar();
+
+                }
                 if (d2.numero == d3.numero)
                 {
-                d3.lanzar();
+
+                    d3.lanzar();
                 }
 
-            if (d1.numero == d3.numero)
-            {
-                d3.lanzar();
+                if (d1.numero == d3.numero)
+                {
+                    d3.lanzar();
+
+                }
+                if (d4.numero == d1.numero)
+                {
+                    d4.lanzar();
+
+                }
+                if (d4.numero == d2.numero)
+                {
+                    d4.lanzar();
+                }
+
+                if (d3.numero == d4.numero)
+                {
+                    d4.lanzar();
+                }
 
             }
-            if (d4.numero == d1.numero)
-            {
-                d4.lanzar();
-
-            }
-            if (d4.numero == d2.numero)
-            {
-                d4.lanzar();
-            }
-
-            if (d3.numero == d4.numero)
-            {
-                d4.lanzar();
-            }
-
-            }
 
 
-
+     
 
 
             switch (d1.numero)
-                {
-                    case 1:
+            {
+                case 1:
+
 
                     pictureBox1.Image = mindruner2.Properties.Resources.lado1;
-                        break;
+                    break;
 
-                    case 2:
+                case 2:
 
                     pictureBox1.Image = mindruner2.Properties.Resources.lado2;
-                        break;
+                    break;
 
-                    case 3:
+                case 3:
 
                     pictureBox1.Image = mindruner2.Properties.Resources.lado3;
-                        break;
+                    break;
 
-                    case 4:
+                case 4:
 
                     pictureBox1.Image = mindruner2.Properties.Resources.lado4;
-                        break;
+                    break;
 
-                    case 5:
+                case 5:
 
                     pictureBox1.Image = mindruner2.Properties.Resources.lado5;
-                        break;
+                    break;
 
-                    case 6:
+                case 6:
 
-                     pictureBox1.Image = mindruner2.Properties.Resources.lado6;
-                        break;
-                }
+                    pictureBox1.Image = mindruner2.Properties.Resources.lado6;
+                    break;
+            }
 
             switch (d2.numero)
             {
@@ -203,15 +205,17 @@ namespace mindruner2
                     pictureBox4.Image = mindruner2.Properties.Resources.lado6;
                     break;
             }
-          
+
         }
-            
-        }
+
+        
 
     }
 
+}
 
-        
-    
+
+
+
 
 

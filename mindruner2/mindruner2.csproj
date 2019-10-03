@@ -158,5 +158,8 @@
   <ItemGroup>
     <None Include="Resources\y4sRZec.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\ani.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

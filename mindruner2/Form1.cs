@@ -12,7 +12,7 @@ namespace mindruner2
 {
     public partial class Form1 : Form
     {
-       
+
         public Form1()
         {
             InitializeComponent();
@@ -20,7 +20,7 @@ namespace mindruner2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-           
+
 
 
 
@@ -34,6 +34,6 @@ namespace mindruner2
         }
     }
 
-    }
-    
+}
+
 
