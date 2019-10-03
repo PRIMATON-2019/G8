@@ -12,7 +12,11 @@ namespace mindruner2
 {
     public partial class Form2 : Form
     {
+        int[] pepe = new int[4];
         dado d1 = new dado();
+        dado d2 = new dado();
+        dado d3 = new dado();
+        dado d4 = new dado();
         public Form2()
         {
             InitializeComponent();
@@ -20,19 +24,18 @@ namespace mindruner2
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            int[] pepe = new int[4];
 
+            for (int h = 0; h < 4; h++)
+            {
+                d1.lanzar();
+                d2.lanzar();
+                d3.lanzar();
+                d4.lanzar();
+
+            }
 
             for (int i = 0; i < 4; i++)
-            {
-
-
-                for (int h = 0; h < pepe.Length; h++)
-                {
-                    d1.lanzar();
-                    pepe[h] = d1.numero;
-                }
-
+            { 
                 switch (pepe[i])
                 {
                     case 1:
@@ -67,34 +70,35 @@ namespace mindruner2
                 }
 
 
-                switch (i)
-                {
-                    case 1:
-                        
-                            pictureBox1.Image = pb.Image;
-                            break;
-                        
+            switch (pepe.Length)
+            {
+                case 1:
 
-                    case 2:
-                        
-                            pictureBox2.Image = pb.Image;
-                        
-                            break;
+                    pictureBox1.Image = pb.Image;
+                    break;
 
-                    case 3:
 
-                        pictureBox3.Image = pb.Image;
+                case 2:
 
-                        break;
+                    pictureBox2.Image = pb.Image;
 
-                    case 4:
+                    break;
 
-                        pictureBox4.Image = pb.Image;
+                case 3:
 
-                        break;
-                }
+                    pictureBox3.Image = pb.Image;
+
+                    break;
+
+                case 4:
+
+                    pictureBox4.Image = pb.Image;
+
+                    break;
             }
         }
+    }
+
 
         private void Form2_Load(object sender, EventArgs e)
         {
