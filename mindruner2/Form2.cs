@@ -20,15 +20,20 @@ namespace mindruner2
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            // int posicion ;
-            for (int i = 0; i < 5; i++)
+            int[] pepe = new int[4];
+
+
+            for (int i = 0; i < 4; i++)
             {
 
 
-                d1.lanzar();
-                int nro = d1.numero;
+                for (int h = 0; h < pepe.Length; h++)
+                {
+                    d1.lanzar();
+                    pepe[h] = d1.numero;
+                }
 
-                switch (nro)
+                switch (pepe[i])
                 {
                     case 1:
 
@@ -91,6 +96,10 @@ namespace mindruner2
             }
         }
 
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
