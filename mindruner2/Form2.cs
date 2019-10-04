@@ -17,9 +17,14 @@ namespace mindruner2
         dado d2 = new dado();
         dado d3 = new dado();
         dado d4 = new dado();
-        public Form2()
+        public Form2(Form3jugadores.Datos info)
+
         {
             InitializeComponent();
+            lbljugador1.Text = info.Nombre1;
+            lbljugador2.Text = info.Nombre2;
+            lbljugador3.Text = info.Nombre3;
+            lbljugador4.Text = info.Nombre4;
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -208,8 +213,10 @@ namespace mindruner2
 
         }
 
-        
+        private void Lbljugador1_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 
 }
