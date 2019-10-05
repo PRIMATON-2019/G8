@@ -12,9 +12,10 @@ namespace mindruner2
 {
     public partial class Geografia : Form
     {
-        public Geografia()
+        public Geografia(Form2.Datos info)
         {
             InitializeComponent();
+            label2.Text = info.Nombre;
         }
     }
 }

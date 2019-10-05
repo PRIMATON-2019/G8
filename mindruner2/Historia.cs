@@ -12,9 +12,15 @@ namespace mindruner2
 {
     public partial class Historia : Form
     {
-        public Historia()
+        public Historia(Form2.Datos info)
         {
             InitializeComponent();
+            label2.Text = info.Nombre;
+        }
+
+        private void Historia_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

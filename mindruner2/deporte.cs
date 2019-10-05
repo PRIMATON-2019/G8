@@ -12,9 +12,10 @@ namespace mindruner2
 {
     public partial class deporte : Form
     {
-        public deporte()
+        public deporte(Form2.Datos info)
         {
             InitializeComponent();
+            label2.Text = info.Nombre;
         }
     }
 }

@@ -12,7 +12,7 @@ namespace mindruner2
 {
     public partial class Naturaleza : Form
     {
-        public Naturaleza()
+        public Naturaleza(Form2.Datos info)
         {
             InitializeComponent();
         }

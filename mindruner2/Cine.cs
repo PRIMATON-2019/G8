@@ -12,9 +12,10 @@ namespace mindruner2
 {
     public partial class Cine : Form
     {
-        public Cine()
+        public Cine(Form2.Datos info)
         {
             InitializeComponent();
+            label2.Text = info.Nombre;
         }
     }
 }

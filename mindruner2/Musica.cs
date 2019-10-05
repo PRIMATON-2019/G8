@@ -12,9 +12,16 @@ namespace mindruner2
 {
     public partial class Musica : Form
     {
-        public Musica()
+        public Musica(Form2.Datos info)
         {
             InitializeComponent();
+            label2.Text = info.Nombre;
+
+        }
+
+        private void Musica_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

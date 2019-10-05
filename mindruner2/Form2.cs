@@ -26,6 +26,37 @@ namespace mindruner2
             lbljugador3.Text = info.Nombre3;
             lbljugador4.Text = info.Nombre4;
         }
+        public struct Datos
+        {
+            public string Nombre;
+            public string Tema;
+            public string Puntage;
+
+           
+
+        }
+        public struct Datos2
+        {
+            public string Nombre;
+            public string Tema;
+            public string Puntage;
+
+            
+        }
+        public struct Datos3
+        {
+            public string Nombre;
+            public string Tema;
+            public string Puntage;
+
+            
+        }
+        public struct Datos4
+        {
+            public string Nombre;
+            public string Tema;
+            public string Puntage;
+        }
         Lista Jugadores = new Lista();
 
 
@@ -230,30 +261,54 @@ namespace mindruner2
 
         private void Button1_Click_1(object sender, EventArgs e)
         {
+            Datos Info1;
+            Datos2 Info2;
+            Datos3 Info3;
+            Datos4 Info4;
+
+            Info1.Nombre = label1.Text;
+            Info1.Tema = label8.Text;
+            Info1.Puntage = label12.Text;
+
+            Info2.Nombre = label2.Text;
+            Info2.Tema = label11.Text;
+            Info2.Puntage = label7.Text;
+
+            Info3.Nombre = label3.Text;
+            Info3.Tema = label10.Text;
+            Info3.Puntage = label6.Text;
+
+            Info4.Nombre = label4.Text;
+            Info4.Tema = label9.Text;
+            Info4.Puntage = label5.Text;
+
+
+
             switch (d1.numero)
             {
                 case 1:
-                    Form historia = new Historia();
+                    Form historia = new Historia(Info1);
                     historia.Show();
+
                     break;
                 case 2:
-                    Form geografia = new Geografia();
+                    Form geografia = new Geografia(Info1);
                     geografia.Show();
                     break;
                 case 3:
-                    Form Deportes = new deporte();
+                    Form Deportes = new deporte(Info1);
                     Deportes.Show();
                     break;
                 case 4:
-                    Form cine = new Cine();
+                    Form cine = new Cine(Info1);
                     cine.Show();
                     break;
                 case 5:
-                    Form musica = new Musica();
+                    Form musica = new Musica(Info1);
                     musica.Show();
                     break;
                 case 6:
-                    Form naturaleza = new Naturaleza();
+                    Form naturaleza = new Naturaleza(Info1);
                     naturaleza.Show();
                     break;
 
