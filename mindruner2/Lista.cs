@@ -9,12 +9,12 @@ namespace mindruner2
     public class Lista
     {
         #region Propiedades 
-        private string[,] Jugador = new string[4, 3];
+        public string[,] Jugador = new string[4, 3];
         private int ProximaPosicion = 0;
-        private int puntaje1 = 0;
-        private int puntaje2 = 0;
-        private int puntaje3 = 0;
-        private int puntaje4 = 0;
+        public int puntaje1 = 0;
+        public int puntaje2 = 0;
+        public int puntaje3 = 0;
+        public int puntaje4 = 0;
         #region Metodos
         public string[,] Carga(string ParametroJugador1, string ParametroJugador2, string ParametroJugador3, string ParametroJugador4)
         {

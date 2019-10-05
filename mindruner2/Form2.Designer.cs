@@ -37,6 +37,18 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -45,12 +57,13 @@
             // 
             // btnlanzar
             // 
-            this.btnlanzar.BackColor = System.Drawing.Color.Fuchsia;
+            this.btnlanzar.BackColor = System.Drawing.Color.Black;
             this.btnlanzar.Font = new System.Drawing.Font("Comic Sans MS", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnlanzar.Location = new System.Drawing.Point(166, 509);
+            this.btnlanzar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnlanzar.Location = new System.Drawing.Point(35, 548);
             this.btnlanzar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnlanzar.Name = "btnlanzar";
-            this.btnlanzar.Size = new System.Drawing.Size(122, 94);
+            this.btnlanzar.Size = new System.Drawing.Size(228, 94);
             this.btnlanzar.TabIndex = 3;
             this.btnlanzar.Text = "TIRAR";
             this.btnlanzar.UseVisualStyleBackColor = false;
@@ -59,7 +72,9 @@
             // lbljugador1
             // 
             this.lbljugador1.AutoSize = true;
-            this.lbljugador1.Location = new System.Drawing.Point(150, 82);
+            this.lbljugador1.BackColor = System.Drawing.Color.Transparent;
+            this.lbljugador1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbljugador1.Location = new System.Drawing.Point(114, 42);
             this.lbljugador1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbljugador1.Name = "lbljugador1";
             this.lbljugador1.Size = new System.Drawing.Size(51, 20);
@@ -70,7 +85,9 @@
             // lbljugador2
             // 
             this.lbljugador2.AutoSize = true;
-            this.lbljugador2.Location = new System.Drawing.Point(291, 82);
+            this.lbljugador2.BackColor = System.Drawing.Color.Transparent;
+            this.lbljugador2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbljugador2.Location = new System.Drawing.Point(300, 42);
             this.lbljugador2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbljugador2.Name = "lbljugador2";
             this.lbljugador2.Size = new System.Drawing.Size(51, 20);
@@ -80,7 +97,9 @@
             // lbljugador3
             // 
             this.lbljugador3.AutoSize = true;
-            this.lbljugador3.Location = new System.Drawing.Point(404, 82);
+            this.lbljugador3.BackColor = System.Drawing.Color.Transparent;
+            this.lbljugador3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbljugador3.Location = new System.Drawing.Point(462, 42);
             this.lbljugador3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbljugador3.Name = "lbljugador3";
             this.lbljugador3.Size = new System.Drawing.Size(51, 20);
@@ -90,7 +109,9 @@
             // lbljugador4
             // 
             this.lbljugador4.AutoSize = true;
-            this.lbljugador4.Location = new System.Drawing.Point(525, 82);
+            this.lbljugador4.BackColor = System.Drawing.Color.Transparent;
+            this.lbljugador4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbljugador4.Location = new System.Drawing.Point(648, 42);
             this.lbljugador4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbljugador4.Name = "lbljugador4";
             this.lbljugador4.Size = new System.Drawing.Size(51, 20);
@@ -99,54 +120,180 @@
             // 
             // pictureBox4
             // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Image = global::mindruner2.Properties.Resources.ani;
-            this.pictureBox4.Location = new System.Drawing.Point(529, 131);
+            this.pictureBox4.Location = new System.Drawing.Point(612, 96);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(68, 63);
+            this.pictureBox4.Size = new System.Drawing.Size(137, 129);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 11;
             this.pictureBox4.TabStop = false;
             // 
             // pictureBox3
             // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = global::mindruner2.Properties.Resources.ani;
-            this.pictureBox3.Location = new System.Drawing.Point(408, 131);
+            this.pictureBox3.Location = new System.Drawing.Point(426, 96);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(68, 63);
+            this.pictureBox3.Size = new System.Drawing.Size(151, 129);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 10;
             this.pictureBox3.TabStop = false;
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::mindruner2.Properties.Resources.ani;
-            this.pictureBox2.Location = new System.Drawing.Point(284, 131);
+            this.pictureBox2.Location = new System.Drawing.Point(248, 96);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(68, 63);
+            this.pictureBox2.Size = new System.Drawing.Size(144, 129);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::mindruner2.Properties.Resources.ani;
-            this.pictureBox1.Location = new System.Drawing.Point(143, 131);
+            this.pictureBox1.Location = new System.Drawing.Point(75, 96);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(68, 63);
+            this.pictureBox1.Size = new System.Drawing.Size(144, 129);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(448, 492);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(51, 20);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "label1";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(448, 533);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(51, 20);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "label2";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(448, 572);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(51, 20);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "label3";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(448, 609);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(51, 20);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "label4";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(526, 609);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(51, 20);
+            this.label5.TabIndex = 19;
+            this.label5.Text = "label5";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(526, 572);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(51, 20);
+            this.label6.TabIndex = 18;
+            this.label6.Text = "label6";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(526, 533);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(51, 20);
+            this.label7.TabIndex = 17;
+            this.label7.Text = "label7";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(526, 492);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(51, 20);
+            this.label8.TabIndex = 16;
+            this.label8.Text = "label8";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(597, 609);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(51, 20);
+            this.label9.TabIndex = 23;
+            this.label9.Text = "label9";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(597, 572);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(60, 20);
+            this.label10.TabIndex = 22;
+            this.label10.Text = "label10";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(597, 533);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(60, 20);
+            this.label11.TabIndex = 21;
+            this.label11.Text = "label11";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(597, 492);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(60, 20);
+            this.label12.TabIndex = 20;
+            this.label12.Text = "label12";
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.MediumSpringGreen;
+            this.BackColor = System.Drawing.Color.MintCream;
+            this.BackgroundImage = global::mindruner2.Properties.Resources.Dados;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(928, 692);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -178,5 +325,17 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         public System.Windows.Forms.Label lbljugador1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
     }
 }

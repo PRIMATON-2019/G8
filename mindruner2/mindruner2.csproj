@@ -72,6 +72,7 @@
       <DependentUpon>Gif del dado.cs</DependentUpon>
     </Compile>
     <Compile Include="Lista.cs" />
+    <Compile Include="preguntados.cs" />
     <Compile Include="preguntas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -160,6 +161,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="imagenes\ani.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dados.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
