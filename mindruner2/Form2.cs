@@ -35,28 +35,7 @@ namespace mindruner2
            
 
         }
-        public struct Datos2
-        {
-            public string Nombre;
-            public string Tema;
-            public string Puntage;
 
-            
-        }
-        public struct Datos3
-        {
-            public string Nombre;
-            public string Tema;
-            public string Puntage;
-
-            
-        }
-        public struct Datos4
-        {
-            public string Nombre;
-            public string Tema;
-            public string Puntage;
-        }
         Lista Jugadores = new Lista();
 
 
@@ -261,10 +240,11 @@ namespace mindruner2
 
         private void Button1_Click_1(object sender, EventArgs e)
         {
+            //Se modificó el tipo de struct de cada jugador a Datos.           
             Datos Info1;
-            Datos2 Info2;
-            Datos3 Info3;
-            Datos4 Info4;
+            Datos Info2;
+            Datos Info3;
+            Datos Info4;
 
             Info1.Nombre = label1.Text;
             Info1.Tema = label8.Text;
@@ -282,41 +262,95 @@ namespace mindruner2
             Info4.Tema = label9.Text;
             Info4.Puntage = label5.Text;
 
+            Evaluar(d1, Info1);
+            Evaluar(d2, Info2);
+            Evaluar(d3, Info3);
+            Evaluar(d4, Info4);
 
 
-            switch (d1.numero)
+            //FALTA:
+            //1- Limpiar el código.
+            //2- Tratar de trabajar con clases(objetos).
+            //3- Hacer un sólo formulario de pregunta en vez de 6.
+            //4- Hacer un label para cada jugador con los puntos.
+            //5- Modificar el método Evaluar() para que escriba en el label de puntaje correspondiente.
+            //6- Crear una variable para identificar en qué instancia del juego se encuentra. Esto sirve para hacer al botón Jugar dinámico. 
+
+            
+            //El método Evaluar funciona para todos los jugadores.
+            //Toma argumentos dependiendo del dado y del jugador.
+            void Evaluar(dado cualdado, Datos cualjugador)
             {
-                case 1:
-                    Form historia = new Historia(Info1);
-                    historia.Show();
 
-                    break;
-                case 2:
-                    Form geografia = new Geografia(Info1);
-                    geografia.Show();
-                    break;
-                case 3:
-                    Form Deportes = new deporte(Info1);
-                    Deportes.Show();
-                    break;
-                case 4:
-                    Form cine = new Cine(Info1);
-                    cine.Show();
-                    break;
-                case 5:
-                    Form musica = new Musica(Info1);
-                    musica.Show();
-                    break;
-                case 6:
-                    Form naturaleza = new Naturaleza(Info1);
-                    naturaleza.Show();
-                    break;
+                switch (cualdado.numero)
+                {
+                    
+                    //Se evalua cuál es la temática a elegir.
+                    //Este Switch NO haría falta en el caso de que se utilice un sólo formulario para las preguntas.
+                    case 1:
 
+                        //Se crea el formulario con la pregunta correspondiente mandando la información.
+                        Form historia = new Historia(cualjugador);
+                        //En vez de utilizar el método Show(), lo hacemos surgir como un Dialog.
+                        //Para ello, creamos un botón en cada formulario de pregunta y le asignamos el valor OK a la propiedad DialogResult.
+                        //Esto indica que realize una acción dependiendo del botón oprimido.
+                        if (historia.ShowDialog(this) == DialogResult.OK)
+                        {
+                            //En este caso, para demostrar que el código recibe información, se trae un parámetro del otro formulario.
+                            //Aquí se sumarían los puntos al total en caso de responder afirmativamente.
+                            this.lbltema.Text = historia.Name;
+                        }
+                        //Una vez que se oprime el botón OK, el formulario se cierra.
+                        historia.Dispose();
+                        break;
+
+                    //El switch se repite por cada otra asignatura.
+                    case 2:
+                        Form geografia = new Geografia(cualjugador);
+                        if (geografia.ShowDialog(this) == DialogResult.OK)
+                        {
+                            this.lbltema.Text = geografia.Name;
+                        }
+                        geografia.Dispose();
+                        break;
+                    case 3:
+                        Form Deportes = new deporte(cualjugador);
+                        if (Deportes.ShowDialog(this) == DialogResult.OK)
+                        {
+                            this.lbltema.Text = Deportes.Name;
+                        }
+                        Deportes.Dispose();
+                        break;
+                    case 4:
+                        Form cine = new Cine(cualjugador);
+                        if (cine.ShowDialog(this) == DialogResult.OK)
+                        {
+                            this.lbltema.Text = cine.Name;
+                        }
+                        cine.Dispose();
+                        break;
+                    case 5:
+                        Form musica = new Musica(cualjugador);
+                        if (musica.ShowDialog(this) == DialogResult.OK)
+                        {
+                            this.lbltema.Text = musica.Name;
+                        }
+                        musica.Dispose();
+                        break;
+                    case 6:
+                        Form naturaleza = new Naturaleza(cualjugador);
+                        if (naturaleza.ShowDialog(this) == DialogResult.OK)
+                        {
+                            this.lbltema.Text = naturaleza.Name;
+                        }
+                        naturaleza.Dispose();
+                        break;
+                }
 
             }
+
         }
     }
-
 }
 
 
