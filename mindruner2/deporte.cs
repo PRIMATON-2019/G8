@@ -17,5 +17,20 @@ namespace mindruner2
             InitializeComponent();
             label2.Text = info.Nombre;
         }
+        public deporte(Form2.Datos2 info)
+        {
+            InitializeComponent();
+            label2.Text = info.Nombre;
+        }
+        public deporte(Form2.Datos3 info)
+        {
+            InitializeComponent();
+            label2.Text = info.Nombre;
+        }
+        public deporte(Form2.Datos4 info)
+        {
+            InitializeComponent();
+            label2.Text = info.Nombre;
+        }
     }
 }

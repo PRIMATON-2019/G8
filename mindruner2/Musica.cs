@@ -18,6 +18,21 @@ namespace mindruner2
             label2.Text = info.Nombre;
 
         }
+        public Musica(Form2.Datos2 info)
+        {
+            InitializeComponent();
+            label2.Text = info.Nombre;
+        }
+        public Musica(Form2.Datos3 info)
+        {
+            InitializeComponent();
+            label2.Text = info.Nombre;
+        }
+        public Musica(Form2.Datos4 info)
+        {
+            InitializeComponent();
+            label2.Text = info.Nombre;
+        }
 
         private void Musica_Load(object sender, EventArgs e)
         {
