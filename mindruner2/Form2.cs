@@ -79,14 +79,14 @@ namespace mindruner2
             label2.Text = lbljugador2.Text;
             label3.Text = lbljugador3.Text;
             label4.Text = lbljugador4.Text;
-            label8.Text = Convert.ToString(d1.numero);
-            label7.Text = Convert.ToString(d2.numero);
-            label6.Text = Convert.ToString(d3.numero);
-            label5.Text = Convert.ToString(d4.numero);
-            label9.Text = d1.tema;
-            label10.Text = d2.tema;
-            label11.Text = d3.tema;
-            label12.Text = d4.tema;
+            label5.Text = Convert.ToString(d1.numero);
+            label6.Text = Convert.ToString(d2.numero);
+            label7.Text = Convert.ToString(d3.numero);
+            label8.Text = Convert.ToString(d4.numero);
+            label12.Text = d1.tema;
+            label11.Text = d2.tema;
+            label10.Text = d3.tema;
+            label9.Text = d4.tema;
 
             switch (d1.numero)
             {

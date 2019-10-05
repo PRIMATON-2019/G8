@@ -18,27 +18,27 @@ namespace mindruner2
 
         public void lanzar()
         {
-            numero = rnd.Next(1, 7);
             materia = rnd.Next(1, 7);
-            switch (materia)
+            numero = rnd.Next(1, 7);
+            switch (numero)
             {
                 case 1:
-                    tema = "Historia";
+                    tema = "Opc.1 Historia";
                     break;
                 case 2:
-                    tema = "Geografia";
+                    tema = "Opc.2 Geografia";
                     break;
                 case 3:
-                    tema = "Deportes";
+                    tema = "Opc.3 Deportes";
                     break;
                 case 4:
-                    tema = "Cine";
+                    tema = "Opc.4 Cine";
                     break;
                 case 5:
-                    tema = "Musica";
+                    tema = "Opc.5 Musica";
                     break;
                 case 6:
-                    tema = "Naturaleza";
+                    tema = "Opc.6 Naturaleza";
                     break;
 
 

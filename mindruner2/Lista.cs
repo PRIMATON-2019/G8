@@ -10,7 +10,7 @@ namespace mindruner2
     {
         #region Propiedades 
         public string[,] Jugador = new string[4, 3];
-        private int ProximaPosicion = 0;
+        
         public int puntaje1 = 0;
         public int puntaje2 = 0;
         public int puntaje3 = 0;
@@ -18,6 +18,7 @@ namespace mindruner2
         #region Metodos
         public string[,] Carga(string ParametroJugador1, string ParametroJugador2, string ParametroJugador3, string ParametroJugador4)
         {
+            int ProximaPosicion = 0;
             Jugador[ProximaPosicion, 0] = ParametroJugador1;
             Jugador[ProximaPosicion, 1] = Convert.ToString(1);
             Jugador[ProximaPosicion, 2] = Convert.ToString(puntaje1);
