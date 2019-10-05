@@ -227,6 +227,39 @@ namespace mindruner2
         {
 
         }
+
+        private void Button1_Click_1(object sender, EventArgs e)
+        {
+            switch (d1.numero)
+            {
+                case 1:
+                    Form historia = new Historia();
+                    historia.Show();
+                    break;
+                case 2:
+                    Form geografia = new Geografia();
+                    geografia.Show();
+                    break;
+                case 3:
+                    Form Deportes = new deporte();
+                    Deportes.Show();
+                    break;
+                case 4:
+                    Form cine = new Cine();
+                    cine.Show();
+                    break;
+                case 5:
+                    Form musica = new Musica();
+                    musica.Show();
+                    break;
+                case 6:
+                    Form naturaleza = new Naturaleza();
+                    naturaleza.Show();
+                    break;
+
+
+            }
+        }
     }
 
 }

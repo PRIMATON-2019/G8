@@ -73,9 +73,29 @@ namespace mindruner2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _450_1000 {
+            get {
+                object obj = ResourceManager.GetObject("450_1000", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _8EC {
             get {
                 object obj = ResourceManager.GetObject("8EC", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap a9c3a807_3d7f_4a75_b1fa_120a3936719d {
+            get {
+                object obj = ResourceManager.GetObject("a9c3a807-3d7f-4a75-b1fa-120a3936719d", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,6 +123,16 @@ namespace mindruner2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cine_estudio_palomitas_espana_salas_reasonwhy_esjpg_ {
+            get {
+                object obj = ResourceManager.GetObject("cine-estudio-palomitas-espana-salas-reasonwhy.esjpg_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap config_minimos_Arturo {
             get {
                 object obj = ResourceManager.GetObject("config_minimos_Arturo", resourceCulture);
@@ -116,6 +146,16 @@ namespace mindruner2.Properties {
         internal static System.Drawing.Bitmap Dados {
             get {
                 object obj = ResourceManager.GetObject("Dados", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap geografia {
+            get {
+                object obj = ResourceManager.GetObject("geografia", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +233,29 @@ namespace mindruner2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap libros_antiguos_macro_20150408_1344617272 {
+            get {
+                object obj = ResourceManager.GetObject("libros_antiguos_macro_20150408_1344617272", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mario {
             get {
                 object obj = ResourceManager.GetObject("mario", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shutterstock_deportes_g {
+            get {
+                object obj = ResourceManager.GetObject("shutterstock_deportes_g", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

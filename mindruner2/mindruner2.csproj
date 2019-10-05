@@ -46,7 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cine.Designer.cs">
+      <DependentUpon>Cine.cs</DependentUpon>
+    </Compile>
     <Compile Include="dado.cs" />
+    <Compile Include="deporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deporte.Designer.cs">
+      <DependentUpon>deporte.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,17 +77,47 @@
     <Compile Include="Form3jugadores.Designer.cs">
       <DependentUpon>Form3jugadores.cs</DependentUpon>
     </Compile>
+    <Compile Include="Geografia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geografia.Designer.cs">
+      <DependentUpon>Geografia.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gif del dado.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Gif del dado.Designer.cs">
       <DependentUpon>Gif del dado.cs</DependentUpon>
     </Compile>
+    <Compile Include="Historia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Historia.Designer.cs">
+      <DependentUpon>Historia.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lista.cs" />
+    <Compile Include="Musica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Musica.Designer.cs">
+      <DependentUpon>Musica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Naturaleza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naturaleza.Designer.cs">
+      <DependentUpon>Naturaleza.cs</DependentUpon>
+    </Compile>
     <Compile Include="preguntados.cs" />
     <Compile Include="preguntas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Cine.resx">
+      <DependentUpon>Cine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deporte.resx">
+      <DependentUpon>deporte.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -85,8 +127,20 @@
     <EmbeddedResource Include="Form3jugadores.resx">
       <DependentUpon>Form3jugadores.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Geografia.resx">
+      <DependentUpon>Geografia.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gif del dado.resx">
       <DependentUpon>Gif del dado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historia.resx">
+      <DependentUpon>Historia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Musica.resx">
+      <DependentUpon>Musica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Naturaleza.resx">
+      <DependentUpon>Naturaleza.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -164,6 +218,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Dados.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutterstock_deportes_g.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\geografia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\libros_antiguos_macro_20150408_1344617272.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a9c3a807-3d7f-4a75-b1fa-120a3936719d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\450_1000.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cine-estudio-palomitas-espana-salas-reasonwhy.esjpg_.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
