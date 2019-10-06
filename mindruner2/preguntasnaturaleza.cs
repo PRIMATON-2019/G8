@@ -46,8 +46,8 @@ namespace mindruner2
             PYR[5, 1] =
             PYR[5, 2] = 
             PYR[5, 3] = 
-            PYR[5, 4] = 
-
+            PYR[5, 4] =
+            
             string pregunta = "";
             pregunta = PYR[Convert.ToInt32(NumerodePregunta) - 1, 0];
 

@@ -32,5 +32,10 @@ namespace mindruner2
             InitializeComponent();
             label2.Text = info.Nombre;
         }
+
+        private void Label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
