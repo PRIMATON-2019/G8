@@ -15,22 +15,22 @@ namespace mindruner2
         public Naturaleza(Form2.Datos info)
         {
             InitializeComponent();
-            label2.Text = info.Nombre;
+            label10.Text = info.Nombre;
         }
         public Naturaleza(Form2.Datos2 info)
         {
             InitializeComponent();
-            label2.Text = info.Nombre;
+            label10.Text = info.Nombre;
         }
         public Naturaleza(Form2.Datos3 info)
         {
             InitializeComponent();
-            label2.Text = info.Nombre;
+            label10.Text = info.Nombre;
         }
         public Naturaleza(Form2.Datos4 info)
         {
             InitializeComponent();
-            label2.Text = info.Nombre;
+            label10.Text = info.Nombre;
         }
         public struct Datos
         {

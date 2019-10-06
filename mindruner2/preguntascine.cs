@@ -9,6 +9,7 @@ namespace mindruner2
     class preguntascine
     {
         public string[,] PYR = new string[6, 5];
+        private string pregunta;
 
         public string PreguntasYRespuestas(string NumerodePregunta)
         {
@@ -48,7 +49,7 @@ namespace mindruner2
             PYR[5, 3] =
             PYR[5, 4] =
 
-            string pregunta = "";
+            pregunta = "";
             pregunta = PYR[Convert.ToInt32(NumerodePregunta) - 1, 0];
 
             return pregunta;
