@@ -22,7 +22,7 @@ namespace mindruner2
 
         private void RadioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            Player.SoundLocation = "C:/Users/maria/source/repos/G8-master/mindruner2/Sound/Final_fantasy_xi_ost_rulude_gardens (Inicio).wav";
+            Player.SoundLocation = "C:/Users/Usuario/source/repos/G8-1/mindruner2/Sound/Chrono Cross Opening HD.wav";
             Player.Play();
         }
 

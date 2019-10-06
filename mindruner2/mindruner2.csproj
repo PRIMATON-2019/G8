@@ -261,5 +261,8 @@
   <ItemGroup>
     <None Include="Resources\cine-estudio-palomitas-espana-salas-reasonwhy.esjpg_.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

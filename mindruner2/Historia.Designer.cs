@@ -213,7 +213,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Historia";
             this.Text = "Historia";
-            this.Load += new System.EventHandler(this.Historia_Load);
+            
             this.ResumeLayout(false);
             this.PerformLayout();
 

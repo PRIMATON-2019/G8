@@ -39,10 +39,7 @@ namespace mindruner2
 
         preguntados BuscarPregunta = new preguntados();
         int ValorRespuesta = 0;
-        private void Historia_Load(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void Button1_Click(object sender, EventArgs e)
         {
