@@ -52,6 +52,7 @@
     <Compile Include="Cine.Designer.cs">
       <DependentUpon>Cine.cs</DependentUpon>
     </Compile>
+    <Compile Include="Class1.cs" />
     <Compile Include="dado.cs" />
     <Compile Include="deporte.cs">
       <SubType>Form</SubType>
@@ -110,6 +111,11 @@
     </Compile>
     <Compile Include="preguntados.cs" />
     <Compile Include="preguntas.cs" />
+    <Compile Include="preguntascine.cs" />
+    <Compile Include="preguntasdeportes.cs" />
+    <Compile Include="preguntasgeografia.cs" />
+    <Compile Include="preguntasmusica.cs" />
+    <Compile Include="preguntasnaturaleza.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Cine.resx">
