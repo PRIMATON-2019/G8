@@ -34,10 +34,11 @@ namespace mindruner2
         {
             InitializeComponent();
             label2.Text = info.Nombre;
-            label5.Text = info.Tema;
+            label5.Text = "Pregunta N" +(info.Tema);
         }
 
         preguntados BuscarPregunta = new preguntados();
+        int ValorRespuesta = 0;
         private void Historia_Load(object sender, EventArgs e)
         {
 
@@ -46,10 +47,51 @@ namespace mindruner2
         private void Button1_Click(object sender, EventArgs e)
         {
             
-            label6.Text = BuscarPregunta.PreguntasYRespuestas(label5.Text);
-
+            label6.Text = BuscarPregunta.Preguntas(label5.Text);
+            label7.Text = BuscarPregunta.opc1(label5.Text);
+            label8.Text = BuscarPregunta.opc2(label5.Text);
+            label9.Text = BuscarPregunta.opc3(label5.Text);
+            ValorRespuesta = Convert.ToInt32(BuscarPregunta.resultado(label5.Text));
             
 
+
+        }
+
+        private void Button1_Click_1(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked==true)
+            {
+                if (ValorRespuesta==1)
+                {
+                    MessageBox.Show("EL RESULTADO ES CORRECTO");  
+                }
+                else
+                {
+                    MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
+                }
+            }
+            if (radioButton2.Checked == true)
+            {
+                if (ValorRespuesta == 2)
+                {
+                    MessageBox.Show("EL RESULTADO ES CORRECTO");
+                }
+                else
+                {
+                    MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
+                }
+            }
+            if (radioButton3.Checked == true)
+            {
+                if (ValorRespuesta == 3)
+                {
+                    MessageBox.Show("EL RESULTADO ES CORRECTO");
+                }
+                else
+                {
+                    MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
+                }
+            }
         }
     }
 }

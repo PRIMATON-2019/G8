@@ -27,6 +27,7 @@ namespace mindruner2
             lbljugador2.Text = info.Nombre2;
             lbljugador3.Text = info.Nombre3;
             lbljugador4.Text = info.Nombre4;
+           
         }
       
         public struct Datos
