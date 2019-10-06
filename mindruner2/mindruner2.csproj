@@ -78,6 +78,18 @@
     <Compile Include="Form3jugadores.Designer.cs">
       <DependentUpon>Form3jugadores.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulario Instrucciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario Instrucciones.Designer.cs">
+      <DependentUpon>Formulario Instrucciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario Opciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario Opciones.Designer.cs">
+      <DependentUpon>Formulario Opciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="Geografia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,6 +144,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form3jugadores.resx">
       <DependentUpon>Form3jugadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario Instrucciones.resx">
+      <DependentUpon>Formulario Instrucciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario Opciones.resx">
+      <DependentUpon>Formulario Opciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Geografia.resx">
       <DependentUpon>Geografia.cs</DependentUpon>

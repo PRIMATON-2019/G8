@@ -40,10 +40,9 @@
             this.btnPlay.BackColor = System.Drawing.Color.SaddleBrown;
             this.btnPlay.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPlay.ForeColor = System.Drawing.Color.White;
-            this.btnPlay.Location = new System.Drawing.Point(341, 185);
-            this.btnPlay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPlay.Location = new System.Drawing.Point(256, 150);
             this.btnPlay.Name = "btnPlay";
-            this.btnPlay.Size = new System.Drawing.Size(84, 38);
+            this.btnPlay.Size = new System.Drawing.Size(63, 31);
             this.btnPlay.TabIndex = 1;
             this.btnPlay.Text = "PLAY";
             this.btnPlay.UseVisualStyleBackColor = false;
@@ -54,36 +53,35 @@
             this.btnInstructions.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.btnInstructions.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInstructions.ForeColor = System.Drawing.Color.White;
-            this.btnInstructions.Location = new System.Drawing.Point(300, 224);
-            this.btnInstructions.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnInstructions.Location = new System.Drawing.Point(225, 182);
             this.btnInstructions.Name = "btnInstructions";
-            this.btnInstructions.Size = new System.Drawing.Size(161, 34);
+            this.btnInstructions.Size = new System.Drawing.Size(121, 28);
             this.btnInstructions.TabIndex = 2;
             this.btnInstructions.Text = "INSTRUCTIONS";
             this.btnInstructions.UseVisualStyleBackColor = false;
+            this.btnInstructions.Click += new System.EventHandler(this.BtnInstructions_Click);
             // 
             // btnOptions
             // 
             this.btnOptions.BackColor = System.Drawing.Color.Olive;
             this.btnOptions.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOptions.ForeColor = System.Drawing.Color.White;
-            this.btnOptions.Location = new System.Drawing.Point(310, 261);
-            this.btnOptions.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnOptions.Location = new System.Drawing.Point(232, 212);
             this.btnOptions.Name = "btnOptions";
-            this.btnOptions.Size = new System.Drawing.Size(161, 33);
+            this.btnOptions.Size = new System.Drawing.Size(121, 27);
             this.btnOptions.TabIndex = 3;
             this.btnOptions.Text = "OPTIONS";
             this.btnOptions.UseVisualStyleBackColor = false;
+            this.btnOptions.Click += new System.EventHandler(this.BtnOptions_Click);
             // 
             // btnCredits
             // 
             this.btnCredits.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.btnCredits.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCredits.ForeColor = System.Drawing.Color.White;
-            this.btnCredits.Location = new System.Drawing.Point(332, 294);
-            this.btnCredits.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCredits.Location = new System.Drawing.Point(249, 239);
             this.btnCredits.Name = "btnCredits";
-            this.btnCredits.Size = new System.Drawing.Size(109, 34);
+            this.btnCredits.Size = new System.Drawing.Size(82, 28);
             this.btnCredits.TabIndex = 4;
             this.btnCredits.Text = "CREDITS";
             this.btnCredits.UseVisualStyleBackColor = false;
@@ -93,28 +91,27 @@
             this.btnExit.BackColor = System.Drawing.Color.DarkSlateGray;
             this.btnExit.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.White;
-            this.btnExit.Location = new System.Drawing.Point(300, 336);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnExit.Location = new System.Drawing.Point(225, 273);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(161, 39);
+            this.btnExit.Size = new System.Drawing.Size(121, 32);
             this.btnExit.TabIndex = 5;
             this.btnExit.Text = "EXIT";
             this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.BtnExit_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::mindruner2.Properties.Resources.y4sRZec;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(766, 398);
+            this.ClientSize = new System.Drawing.Size(574, 323);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnCredits);
             this.Controls.Add(this.btnOptions);
             this.Controls.Add(this.btnInstructions);
             this.Controls.Add(this.btnPlay);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.ShowInTaskbar = false;
