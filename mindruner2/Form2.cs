@@ -318,8 +318,8 @@ namespace mindruner2
             Datos2 Info2;
 
             Info2.Nombre = label2.Text;
-            Info2.Tema = label11.Text;
-            Info2.Npregunta = label7.Text;
+            Info2.Tema = label7.Text;
+            Info2.Npregunta = label11.Text;
 
             switch (d2.numero)
             {
@@ -358,8 +358,8 @@ namespace mindruner2
             Datos3 Info3;
 
             Info3.Nombre = label3.Text;
-            Info3.Tema = label10.Text;
-            Info3.Npregunta = label6.Text;
+            Info3.Tema = label6.Text;
+            Info3.Npregunta = label10.Text;
 
 
             switch (d3.numero)
@@ -400,8 +400,8 @@ namespace mindruner2
             Datos4 Info4;
 
             Info4.Nombre = label4.Text;
-            Info4.Tema = label9.Text;
-            Info4.Npregunta = label5.Text;
+            Info4.Tema = label5.Text;
+            Info4.Npregunta = label9.Text;
 
             switch (d4.numero)
             {

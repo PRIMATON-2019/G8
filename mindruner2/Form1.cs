@@ -18,7 +18,7 @@ namespace mindruner2
         {
             InitializeComponent();
             SoundPlayer Player = new SoundPlayer();
-            Player.SoundLocation = (@"C:\Users\maria\source\repos\GrupoPrimaton\G8\mindruner2\Sound\Chrono Cross Opening HD.wav");
+            Player.SoundLocation = "C:/Users/Usuario/Downloads/Chrono Cross Opening HD.wav";
             Player.Play();
         }
 
