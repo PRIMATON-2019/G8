@@ -37,7 +37,7 @@ namespace mindruner2
             label2.Text = info.Nombre;
             label5.Text = "EL TEMA NUMERO"+info.Tema;
         }
-        preguntascine BuscarPregunta = new preguntascine();
+        Preguntasmusica BuscarPregunta = new Preguntasmusica();
         int ValorRespuesta = 0;
 
         private void Musica_Load(object sender, EventArgs e)

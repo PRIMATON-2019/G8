@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace mindruner2
 {
-    class preguntasmusica
+    public class Preguntasmusica
     {
-        class preguntasgeografia
-        {
+        
+                
             private string[,] PYR = new string[6, 5];
 
 
@@ -79,6 +79,6 @@ namespace mindruner2
                 return resultado;
             }
             #endregion
-        }
+        
         }
     }

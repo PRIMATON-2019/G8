@@ -37,7 +37,7 @@ namespace mindruner2
             label5.Text = "EL TEMA ES" +(info.Tema);
         }
 
-        preguntascine BuscarPregunta = new preguntascine();
+        preguntasgeografia BuscarPregunta = new preguntasgeografia();
         int ValorRespuesta = 0;
 
         private void Btnpregunta_Click(object sender, EventArgs e)

@@ -36,7 +36,7 @@ namespace mindruner2
             label2.Text = info.Nombre;
             label5.Text = "Pregunta N" + (info.Tema);
         }
-        preguntados BuscarPregunta = new preguntados();
+        preguntasdeportes BuscarPregunta = new preguntasdeportes();
         int ValorRespuesta = 0;
 
 

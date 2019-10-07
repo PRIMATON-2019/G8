@@ -36,7 +36,7 @@ namespace mindruner2
             label10.Text = info.Nombre;
             label5.Text = info.Tema;
         }
-        preguntascine BuscarPregunta = new preguntascine();
+        preguntasnaturaleza BuscarPregunta = new preguntasnaturaleza();
         int ValorRespuesta = 0;
 
 
