@@ -151,6 +151,15 @@ namespace mindruner2.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Final_fantasy_xi_ost_rulude_gardens__Inicio_ {
+            get {
+                return ResourceManager.GetStream("Final_fantasy_xi_ost_rulude_gardens__Inicio_", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap geografia {
