@@ -14,6 +14,8 @@ namespace mindruner2
     public partial class Form1 : Form
     {
 
+        
+
         public Form1()
         {
             InitializeComponent();
@@ -24,18 +26,21 @@ namespace mindruner2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
-
-
-
+                                 
         }
         // evento de boton
-       
+
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            Form tercerformulario = new Form3jugadores ();
+
+            Form1 Inicio = new Form1();
+            Inicio.Close();
+
+            Form tercerformulario = new Form3jugadores();
             tercerformulario.Show();
+            
+
         }
 
         private void BtnInstructions_Click(object sender, EventArgs e)

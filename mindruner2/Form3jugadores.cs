@@ -10,12 +10,15 @@ using System.Windows.Forms;
 
 namespace mindruner2
 {
+    
     public partial class Form3jugadores : Form
     {
         public Form3jugadores()
         {
             InitializeComponent();
         }
+
+        Form1 Obj = new Form1();
         public struct Datos
         {
             public string Nombre1;
@@ -56,6 +59,17 @@ namespace mindruner2
         private void Form3jugadores_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+
+            this.Close();
+            
+            //Obj.Show();
+
+            
+            
         }
     }
 }

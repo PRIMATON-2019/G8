@@ -24,6 +24,8 @@ namespace mindruner2
 
             pictureBox2.Image = Image.FromFile("C:/Users/maria/source/repos/G8-master/mindruner2/imagenes/snoppy.gif");
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+
+           
         }
     }
     
