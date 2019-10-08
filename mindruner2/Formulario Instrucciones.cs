@@ -19,10 +19,10 @@ namespace mindruner2
 
         private void Formulario_Instrucciones_Load(object sender, EventArgs e)
         {
-            pictureBox1.Image = Image.FromFile("C:/Users/maria/source/repos/G8-master/mindruner2/imagenes/Garfield.gif");
+            //pictureBox1.Image = Image.FromFile("C:/Users/maria/source/repos/G8-master/mindruner2/imagenes/Garfield.gif");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
 
-            pictureBox2.Image = Image.FromFile("C:/Users/maria/source/repos/G8-master/mindruner2/imagenes/snoppy.gif");
+            //pictureBox2.Image = Image.FromFile("C:/Users/maria/source/repos/G8-master/mindruner2/imagenes/snoppy.gif");
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
 
            
