@@ -73,7 +73,7 @@ namespace mindruner2
                 PYR[1, 4] = "2";
                 PYR[2, 4] = "2";
                 PYR[3, 4] = "1";
-                PYR[4, 4] = "5";
+                PYR[4, 4] = "3";
                 PYR[5, 4] = "2";
                 string resultado = PYR[Convert.ToInt32(NumerodePregunta) - 1, 4];
                 return resultado;

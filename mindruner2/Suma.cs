@@ -36,23 +36,23 @@ namespace mindruner2
             return Convert.ToString(contador);
             int puntaje1(int Npuntaje1)
             {
-                //contador1 = contador1 + 10;
-                return contador1 + 10;
+                contador1 = (contador1 + 10);
+                return contador1 ;
             }
             int puntaje2(int Npuntaje2)
             {
-                //contador2 = contador2 + 10;
-                return contador2 + 10;
+                contador2 = (contador2 + 10);
+                return contador2;
             }
             int puntaje3(int Npuntaje3)
             {
-                //contador3 = contador3 + 10;
-                return contador3 + 10;
+                contador3 = (contador3 + 10);
+                return contador3;
             }
             int puntaje4(int Npuntaje4)
             {
-                //contador4 = contador4 + 10;
-                return contador4 + 10;
+                contador4 = (contador4 + 10);
+                return contador4;
             }
         }
         public string VisualizarPuntaje(string Npuntaje)
