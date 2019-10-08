@@ -17,31 +17,36 @@ namespace mindruner2
             InitializeComponent();
             label2.Text = info.Nombre;
             label5.Text = info.Tema;
+            label10.Text = info.Njugador;
         }
         public deporte(Form2.Datos2 info)
         {
             InitializeComponent();
             label2.Text = info.Nombre;
             label5.Text = info.Tema;
+            label10.Text = info.Njugador;
         }
         public deporte(Form2.Datos3 info)
         {
             InitializeComponent();
             label2.Text = info.Nombre;
             label5.Text = info.Tema;
+            label10.Text = info.Njugador;
         }
         public deporte(Form2.Datos4 info)
         {
             InitializeComponent();
             label2.Text = info.Nombre;
-            label5.Text = "Pregunta N" + (info.Tema);
+            label5.Text = info.Tema;
+            label10.Text = info.Njugador;
         }
         preguntasdeportes BuscarPregunta = new preguntasdeportes();
         int ValorRespuesta = 0;
+        Suma contador = new Suma();
 
 
-       
-        
+
+
 
         private void Btnpregunta_Click(object sender, EventArgs e)
         {
@@ -59,10 +64,13 @@ namespace mindruner2
                 if (ValorRespuesta == 1)
                 {
                     MessageBox.Show("EL RESULTADO ES CORRECTO");
+                    label11.Text = contador.SumaPuntaje(label10.Text);
+
                 }
                 else
                 {
                     MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
+                    label11.Text = contador.VisualizarPuntaje(label10.Text);
                 }
             }
             if (radioButton2.Checked == true)
@@ -70,10 +78,12 @@ namespace mindruner2
                 if (ValorRespuesta == 2)
                 {
                     MessageBox.Show("EL RESULTADO ES CORRECTO");
+                    label11.Text = contador.SumaPuntaje(label10.Text);
                 }
                 else
                 {
                     MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
+                    label11.Text = contador.VisualizarPuntaje(label10.Text);
                 }
             }
             if (radioButton3.Checked == true)
@@ -81,10 +91,12 @@ namespace mindruner2
                 if (ValorRespuesta == 3)
                 {
                     MessageBox.Show("EL RESULTADO ES CORRECTO");
+                    label11.Text = contador.SumaPuntaje(label10.Text);
                 }
                 else
                 {
                     MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
+                    label11.Text = contador.VisualizarPuntaje(label10.Text);
                 }
             }
         }
