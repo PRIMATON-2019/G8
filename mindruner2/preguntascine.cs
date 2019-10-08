@@ -17,7 +17,7 @@ namespace mindruner2
         {
             PYR[0, 0] = "quien hizo rambo";
             PYR[1, 0] = "como es el apellido de susana";
-            PYR[2, 0] = "quien conduce Show Mach";
+            PYR[2, 0] = "quien conduce Show";
             PYR[3, 0] = "quien es el actor principal de el sexto sentido";
             PYR[4, 0] = "cuanto personages tiene la serie FRIENDS";           
             PYR[5, 0] = "Como se llama el hijo de HOMERO";
