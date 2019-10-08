@@ -121,6 +121,15 @@ namespace mindruner2.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chrono_Cross_Opening_HD {
+            get {
+                return ResourceManager.GetStream("Chrono_Cross_Opening_HD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap cine_estudio_palomitas_espana_salas_reasonwhy_esjpg_ {

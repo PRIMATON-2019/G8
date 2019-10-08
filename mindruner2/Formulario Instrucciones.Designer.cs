@@ -83,6 +83,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Formulario_Instrucciones";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formulario_Instrucciones";
             this.Load += new System.EventHandler(this.Formulario_Instrucciones_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

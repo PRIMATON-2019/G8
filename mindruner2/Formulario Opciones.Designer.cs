@@ -115,6 +115,7 @@
             this.Controls.Add(this.groupBox1);
             this.DoubleBuffered = true;
             this.Name = "Formulario_Opciones";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formulario_Opciones";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

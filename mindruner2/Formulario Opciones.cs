@@ -22,7 +22,8 @@ namespace mindruner2
 
         private void RadioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            Player.SoundLocation = "C:/Users/Usuario/Downloads/Chrono Cross Opening HD.wav";
+            //Player.SoundLocation = "C:/Users/Usuario/Downloads/Chrono Cross Opening HD.wav";
+            Player.Stream = Properties.Resources.Chrono_Cross_Opening_HD;
             Player.Play();
         }
 

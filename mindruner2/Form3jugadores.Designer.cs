@@ -55,7 +55,7 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Image = global::mindruner2.Properties.Resources.SuperMarioParty_DonkeyKong;
             this.pictureBox1.Location = new System.Drawing.Point(56, 128);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(96, 110);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -67,7 +67,7 @@
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox2.Image = global::mindruner2.Properties.Resources.mario;
             this.pictureBox2.Location = new System.Drawing.Point(187, 128);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(96, 110);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -79,7 +79,7 @@
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox3.Image = global::mindruner2.Properties.Resources.Artwork_Peach__NSMBUD_;
             this.pictureBox3.Location = new System.Drawing.Point(324, 128);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(96, 110);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -91,7 +91,7 @@
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox4.Image = global::mindruner2.Properties.Resources._3181290_640px;
             this.pictureBox4.Location = new System.Drawing.Point(453, 128);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(96, 110);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -101,7 +101,7 @@
             // txt1
             // 
             this.txt1.Location = new System.Drawing.Point(56, 244);
-            this.txt1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt1.Margin = new System.Windows.Forms.Padding(2);
             this.txt1.Multiline = true;
             this.txt1.Name = "txt1";
             this.txt1.Size = new System.Drawing.Size(97, 30);
@@ -110,7 +110,7 @@
             // txt2
             // 
             this.txt2.Location = new System.Drawing.Point(187, 244);
-            this.txt2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt2.Margin = new System.Windows.Forms.Padding(2);
             this.txt2.Multiline = true;
             this.txt2.Name = "txt2";
             this.txt2.Size = new System.Drawing.Size(97, 30);
@@ -120,7 +120,7 @@
             // txt3
             // 
             this.txt3.Location = new System.Drawing.Point(324, 244);
-            this.txt3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt3.Margin = new System.Windows.Forms.Padding(2);
             this.txt3.Multiline = true;
             this.txt3.Name = "txt3";
             this.txt3.Size = new System.Drawing.Size(97, 30);
@@ -129,7 +129,7 @@
             // txt4
             // 
             this.txt4.Location = new System.Drawing.Point(453, 244);
-            this.txt4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt4.Margin = new System.Windows.Forms.Padding(2);
             this.txt4.Multiline = true;
             this.txt4.Name = "txt4";
             this.txt4.Size = new System.Drawing.Size(97, 30);
@@ -201,7 +201,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.button1.Location = new System.Drawing.Point(243, 292);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(133, 44);
             this.button1.TabIndex = 13;
@@ -252,8 +252,9 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form3jugadores";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form3jugadores";
             this.Load += new System.EventHandler(this.Form3jugadores_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

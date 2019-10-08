@@ -268,5 +268,8 @@
   <ItemGroup>
     <None Include="Sound\Final_fantasy_xi_ost_rulude_gardens %28Inicio%29.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Sound\Chrono Cross Opening HD.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

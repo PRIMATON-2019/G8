@@ -193,4 +193,7 @@
   <data name="Final_fantasy_xi_ost_rulude_gardens__Inicio_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Sound\Final_fantasy_xi_ost_rulude_gardens (Inicio).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="Chrono_Cross_Opening_HD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sound\Chrono Cross Opening HD.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
