@@ -23,6 +23,7 @@ namespace mindruner2
             //Player.SoundLocation = "C:/Users/Usuario/Downloads/Chrono Cross Opening HD.wav";
             Player.Stream = Properties.Resources.Chrono_Cross_Opening_HD;
             Player.Play();
+            //btnCredits.BackgroundImage = Properties.Resources.Boton_estilo_Inicio;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -60,6 +61,40 @@ namespace mindruner2
         private void BtnExit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void BtnCredits_Click(object sender, EventArgs e)
+        {
+
+            //SoundPlayer NotificacionBoton = new SoundPlayer();
+            //NotificacionBoton.SoundLocation= @"C:\Users\maria\source\repos\GrupoPrimaton\G8MartesMadrugada\G8\mindruner2\Sound\FGBS(37).wav";
+            //NotificacionBoton.Play();
+
+
+
+         
+        }
+
+        private void BtnCredits_MouseMove(object sender, MouseEventArgs e)
+        {
+
+            //btnCredits.BackgroundImage = Properties.Resources.Boton_estilo_2;
+
+
+            //SoundPlayer NotificacionBoton = new SoundPlayer();
+            //NotificacionBoton.SoundLocation = @"C:\Users\maria\source\repos\GrupoPrimaton\G8MartesMadrugada\G8\mindruner2\Sound\FGBS(37).wav";
+            //NotificacionBoton.Play();
+        }
+
+        private void BtnCredits_MouseLeave(object sender, EventArgs e)
+        {
+            //SoundPlayer NotificacionBoton = new SoundPlayer();
+            //NotificacionBoton.SoundLocation = @"C:\Users\maria\source\repos\GrupoPrimaton\G8MartesMadrugada\G8\mindruner2\Sound\FGBS(37).wav";
+            //NotificacionBoton.Stop();
+
+            //btnCredits.BackgroundImage = Properties.Resources.boton_estilo_inicio1;
+
+
         }
     }
 

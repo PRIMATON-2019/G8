@@ -277,5 +277,20 @@
   <ItemGroup>
     <None Include="Properties\snoppy.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Sound\FGBS%2837%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Boton estilo 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Boton estilo 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Boton estilo Inicio.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton estilo inicio1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
