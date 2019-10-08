@@ -15,12 +15,12 @@ namespace mindruner2
 
         public string Preguntas(string NumerodePregunta)
         {
-            PYR[0, 0] = "quien hizo rambo";
-            PYR[1, 0] = "como es el apellido de susana";
-            PYR[2, 0] = "quien conduce Show";
-            PYR[3, 0] = "quien es el actor principal de el sexto sentido";
-            PYR[4, 0] = "cuanto personages tiene la serie FRIENDS";           
-            PYR[5, 0] = "Como se llama el hijo de HOMERO";
+            PYR[0, 0] = "¿Que personaje de Star Wars se convierte en Darth Vader?";
+            PYR[1, 0] = "¿Que actor representa a Jack Sparrow en Piratas del Caribe?";
+            PYR[2, 0] = "¿Que personaje de los Simpson tiene un bypass?";
+            PYR[3, 0] = "¿Que tipo de pez es Nemo?";
+            PYR[4, 0] = "¿Que animal es Patricio en la serie Bob Esponja? ";           
+            PYR[5, 0] = "¿Cual es la pelicula más taquillera de la historia?";
             
 
             string pregunta = PYR[Convert.ToInt32(NumerodePregunta) - 1, 0];
@@ -30,24 +30,24 @@ namespace mindruner2
         }
         public string opc1(string NumerodePregunta)
         {
-            PYR[0, 1] = " chuck Norris";
-            PYR[1, 1] = " gonzalez";
-            PYR[2, 1] = " Mirtha Legrand";
-            PYR[3, 1] = " Bruce Willis";
-            PYR[4, 1] = " 7";
-            PYR[5, 1] = " lisa";
+            PYR[0, 1] = " Yoda";
+            PYR[1, 1] = " Orlando Bloom";
+            PYR[2, 1] = " El señor Burns";
+            PYR[3, 1] = " Pez payaso.";
+            PYR[4, 1] = " Delfín";
+            PYR[5, 1] = " Titanic";
             string opc1 = PYR[Convert.ToInt32(NumerodePregunta) - 1, 1];
             return opc1;
 
         }
         public string opc2(string NumerodePregunta)
         {
-            PYR[0, 2] = "Bruce wils";
-            PYR[1, 2] = "Gimenez";
-            PYR[2, 2] = "Marcelo Tinelli";
-            PYR[3, 2] = "el chapulin";
-            PYR[4, 2] = "20";
-            PYR[5, 2] = "bart";
+            PYR[0, 2] = "Kenobi";
+            PYR[1, 2] = "Johnny Deep";
+            PYR[2, 2] = "Krosty, el payaso";
+            PYR[3, 2] = "Pez globo";
+            PYR[4, 2] = "Cangrejo";
+            PYR[5, 2] = "Avengers: Eng Game";
 
 
             string opc2 = PYR[Convert.ToInt32(NumerodePregunta) - 1, 2];
@@ -55,12 +55,12 @@ namespace mindruner2
         }
         public string opc3(string NumerodePregunta)
         {
-            PYR[0, 3] = "Silvestre Stalone";
-            PYR[1, 3] = "Perez";
-            PYR[2, 3] = "Charly Garcia";
-            PYR[3, 3] = "Maradona";
-            PYR[4, 3] = "5";
-            PYR[5, 3] = "maguie";
+            PYR[0, 3] = "Skywalker";
+            PYR[1, 3] = "Antonio Banderas";
+            PYR[2, 3] = "Moe";
+            PYR[3, 3] = "Pez dorado";
+            PYR[4, 3] = "Estrella de mar rosa";
+            PYR[5, 3] = "Avatar";
 
             string opc3 = PYR[Convert.ToInt32(NumerodePregunta) - 1, 3];
             return opc3;
