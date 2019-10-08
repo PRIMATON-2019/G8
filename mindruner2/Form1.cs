@@ -48,6 +48,7 @@ namespace mindruner2
         {
             Form Instrucciones = new Formulario_Instrucciones();
             Instrucciones.Show();
+           
         }
 
         private void BtnOptions_Click(object sender, EventArgs e)

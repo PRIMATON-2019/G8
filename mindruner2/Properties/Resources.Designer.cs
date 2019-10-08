@@ -171,6 +171,16 @@ namespace mindruner2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Garfield {
+            get {
+                object obj = ResourceManager.GetObject("Garfield", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap geografia {
             get {
                 object obj = ResourceManager.GetObject("geografia", resourceCulture);
@@ -274,6 +284,16 @@ namespace mindruner2.Properties {
         internal static System.Drawing.Bitmap shutterstock_deportes_g {
             get {
                 object obj = ResourceManager.GetObject("shutterstock_deportes_g", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap snoppy {
+            get {
+                object obj = ResourceManager.GetObject("snoppy", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

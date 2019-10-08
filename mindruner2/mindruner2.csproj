@@ -271,5 +271,11 @@
   <ItemGroup>
     <None Include="Sound\Chrono Cross Opening HD.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\Garfield.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\snoppy.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
