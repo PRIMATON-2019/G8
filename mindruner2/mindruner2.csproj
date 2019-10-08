@@ -130,6 +130,7 @@
     <Compile Include="preguntasnaturaleza.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SumadorDeValores.cs" />
     <EmbeddedResource Include="Cine.resx">
       <DependentUpon>Cine.cs</DependentUpon>
     </EmbeddedResource>

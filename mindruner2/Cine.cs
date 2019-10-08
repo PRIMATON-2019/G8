@@ -17,27 +17,34 @@ namespace mindruner2
             InitializeComponent();
             label2.Text = info.Nombre;
             label5.Text = info.Tema;
+            label10.Text= info.Njugador;
         }
         public Cine(Form2.Datos2 info)
         {
             InitializeComponent();
             label2.Text = info.Nombre;
             label5.Text = info.Tema;
+            label10.Text = info.Njugador;
         }
         public Cine(Form2.Datos3 info)
         {
             InitializeComponent();
             label2.Text = info.Nombre;
             label5.Text = info.Tema;
+            label10.Text = info.Njugador;
         }
         public Cine(Form2.Datos4 info)
         {
             InitializeComponent();
             label2.Text = info.Nombre;
             label5.Text = info.Tema;
+            label10.Text = info.Njugador;
         }
         preguntascine BuscarPregunta = new preguntascine();
         int ValorRespuesta = 0;
+        Suma contador = new Suma();
+        
+        
 
         private void Btnpregunta_Click(object sender, EventArgs e)
         {
@@ -46,6 +53,7 @@ namespace mindruner2
             label8.Text = BuscarPregunta.opc2(label5.Text);
             label9.Text = BuscarPregunta.opc3(label5.Text);
             ValorRespuesta = Convert.ToInt32(BuscarPregunta.resultado(label5.Text));
+            
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -55,6 +63,9 @@ namespace mindruner2
                 if (ValorRespuesta == 1)
                 {
                     MessageBox.Show("EL RESULTADO ES CORRECTO");
+                    
+                    
+                    //label11.Text = contador.SumarContador( label10.Text);
                 }
                 else
                 {

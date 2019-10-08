@@ -35,7 +35,7 @@ namespace mindruner2
             public string Nombre;
             public string Tema;
             public string Npregunta;
-
+            public string Njugador;
 
            
 
@@ -45,22 +45,25 @@ namespace mindruner2
             public string Nombre;
             public string Tema;
             public string Npregunta;
+            public string Njugador;
 
-            
+
         }
         public struct Datos3
         {
             public string Nombre;
             public string Tema;
             public string Npregunta;
+            public string Njugador;
 
-            
+
         }
         public struct Datos4
         {
             public string Nombre;
             public string Tema;
             public string Npregunta;
+            public string Njugador;
         }
         Lista Jugadores = new Lista();
 
@@ -271,6 +274,7 @@ namespace mindruner2
             Info1.Nombre = label1.Text;
             Info1.Tema = label12.Text;
             Info1.Npregunta = label8.Text;
+            Info1.Njugador = "1";
             
                   
                   
@@ -320,6 +324,7 @@ namespace mindruner2
             Info2.Nombre = label2.Text;
             Info2.Tema = label7.Text;
             Info2.Npregunta = label11.Text;
+            Info2.Njugador = "2";
 
             switch (d2.numero)
             {
@@ -360,6 +365,7 @@ namespace mindruner2
             Info3.Nombre = label3.Text;
             Info3.Tema = label6.Text;
             Info3.Npregunta = label10.Text;
+            Info3.Njugador = "3";
 
 
             switch (d3.numero)
@@ -402,6 +408,7 @@ namespace mindruner2
             Info4.Nombre = label4.Text;
             Info4.Tema = label5.Text;
             Info4.Npregunta = label9.Text;
+            Info4.Njugador = "4";
 
             switch (d4.numero)
             {
