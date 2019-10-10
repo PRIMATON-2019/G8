@@ -70,6 +70,10 @@ namespace mindruner2
 
         private void Button1_Click(object sender, EventArgs e)
         {
+            button1.Enabled = true;
+            button2.Enabled = false;
+            button3.Enabled = false;
+            button4.Enabled = false;
             Jugadores.Carga(lbljugador1.Text, lbljugador2.Text, lbljugador3.Text, lbljugador4.Text);
 
             d1.lanzar();
@@ -311,8 +315,9 @@ namespace mindruner2
                     }
                     
             }
-               
-                   
+
+            
+
                   
                                 
         }
