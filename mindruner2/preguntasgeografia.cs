@@ -18,7 +18,7 @@ namespace mindruner2
             PYR[0, 0] = "¿En que continente estan las montañas Rocallosas?";
             PYR[1, 0] = "¿En que país está el Taj Mahal?.";
             PYR[2, 0] =  "¿En que provincia está la ciudad de Trelew?";
-            PYR[3, 0] =  "¿En que país está la región de Transilvania, patria de Drácula?"o";
+            PYR[3, 0] =  "¿En que país está la región de Transilvania, patria de Drácula?";
             PYR[4, 0] =  "¿En que país es el quechua una lengua oficial?";
             PYR[5, 0] =  "¿Que país tiene un machete en la bandera?" ;
             PYR[6, 0] =  "¿De que provincia es la capital de la ciudad de Paraná?";
