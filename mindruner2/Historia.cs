@@ -12,6 +12,12 @@ namespace mindruner2
 {
     public partial class Historia : Form
     {
+        public struct verijugadores
+        {
+            public bool koko;
+           
+
+        }
         public Historia(Form2.Datos info)
         {
             InitializeComponent();
@@ -58,21 +64,36 @@ namespace mindruner2
 
 
         }
-
-        private void Button1_Click_1(object sender, EventArgs e)
+        public bool juancito(bool puto)
         {
+
+            return puto;
+        }
+
+        public void Button1_Click_1(object sender, EventArgs e)
+        {
+          
             if (radioButton1.Checked == true)
             {
                 if (ValorRespuesta == 1)
                 {
                     MessageBox.Show("EL RESULTADO ES CORRECTO");
                     label11.Text = contador.SumaPuntaje(label10.Text);
+                    verijugadores matermo;
+                    matermo.koko = true;
+                    this.Hide();
+
+
 
                 }
                 else
                 {
                     MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
                     label11.Text = contador.VisualizarPuntaje(label10.Text);
+                    verijugadores matermo;
+                    matermo.koko = true;
+                    this.Hide();
+
                 }
             }
             if (radioButton2.Checked == true)
@@ -81,11 +102,17 @@ namespace mindruner2
                 {
                     MessageBox.Show("EL RESULTADO ES CORRECTO");
                     label11.Text = contador.SumaPuntaje(label10.Text);
+                    verijugadores matermo;
+                    matermo.koko = true;
+                    this.Hide();
                 }
                 else
                 {
                     MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
                     label11.Text = contador.VisualizarPuntaje(label10.Text);
+                    verijugadores matermo;
+                    matermo.koko = true;
+                    this.Hide();
                 }
             }
             if (radioButton3.Checked == true)
@@ -94,11 +121,17 @@ namespace mindruner2
                 {
                     MessageBox.Show("EL RESULTADO ES CORRECTO");
                     label11.Text = contador.SumaPuntaje(label10.Text);
+                    verijugadores matermo;
+                    matermo.koko = true;
+                    this.Hide();
                 }
                 else
                 {
                     MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
                     label11.Text = contador.VisualizarPuntaje(label10.Text);
+                    verijugadores matermo;
+                    matermo.koko = true;
+                    this.Hide();
                 }
             }
         }

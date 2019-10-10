@@ -25,6 +25,7 @@ namespace mindruner2
             public string Nombre2;
             public string Nombre3;
             public string Nombre4;
+          
         }                                    
         Lista Jugadores = new Lista();
 

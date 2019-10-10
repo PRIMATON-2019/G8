@@ -10,15 +10,24 @@ using System.Windows.Forms;
 
 namespace mindruner2
 {
+    
     public partial class Form2 : Form
     {
+        
         int[] pepe = new int[4];
         dado d1 = new dado();
         dado d2 = new dado();
         dado d3 = new dado();
         dado d4 = new dado();
         preguntados pregunta = new preguntados();
+        bool semediolagana;
         
+        public Form2 (Historia.verijugadores pq)
+        {
+            InitializeComponent();
+            semediolagana = pq.koko;
+
+        }
         public Form2(Form3jugadores.Datos info)
 
         {
