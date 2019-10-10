@@ -8,7 +8,7 @@ namespace mindruner2
 {
     class preguntasdeportes
     {
-        private string[,] PYR = new string[6, 5];
+        private string[,] PYR = new string[20, 5];
 
 
         #region Metodos
