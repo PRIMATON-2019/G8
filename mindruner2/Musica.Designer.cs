@@ -28,29 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Musica));
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.btnpregunta = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(85, 179);
+            this.label9.Location = new System.Drawing.Point(34, 266);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(35, 13);
@@ -60,7 +63,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(85, 153);
+            this.label8.Location = new System.Drawing.Point(34, 240);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(35, 13);
@@ -70,7 +73,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(85, 128);
+            this.label7.Location = new System.Drawing.Point(34, 215);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(35, 13);
@@ -80,7 +83,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(150, 81);
+            this.label6.Location = new System.Drawing.Point(111, 184);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(35, 13);
@@ -90,7 +93,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(19, 81);
+            this.label5.Location = new System.Drawing.Point(19, 184);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(35, 13);
@@ -99,85 +102,56 @@
             // 
             // btnpregunta
             // 
-            this.btnpregunta.Location = new System.Drawing.Point(252, 21);
-            this.btnpregunta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnpregunta.BackColor = System.Drawing.Color.Transparent;
+            this.btnpregunta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnpregunta.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnpregunta.FlatAppearance.BorderSize = 5;
+            this.btnpregunta.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnpregunta.ForeColor = System.Drawing.Color.Transparent;
+            this.btnpregunta.Image = ((System.Drawing.Image)(resources.GetObject("btnpregunta.Image")));
+            this.btnpregunta.Location = new System.Drawing.Point(305, 49);
+            this.btnpregunta.Margin = new System.Windows.Forms.Padding(2);
             this.btnpregunta.Name = "btnpregunta";
-            this.btnpregunta.Size = new System.Drawing.Size(117, 42);
-            this.btnpregunta.TabIndex = 34;
-            this.btnpregunta.Text = "PREUGNTA";
-            this.btnpregunta.UseVisualStyleBackColor = true;
+            this.btnpregunta.Size = new System.Drawing.Size(217, 48);
+            this.btnpregunta.TabIndex = 52;
+            this.btnpregunta.UseVisualStyleBackColor = false;
             this.btnpregunta.Click += new System.EventHandler(this.Btnpregunta_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(123, 44);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(72, 20);
-            this.label3.TabIndex = 33;
-            this.label3.Text = "MUSICA";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(16, 45);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 20);
-            this.label4.TabIndex = 32;
-            this.label4.Text = "TEMA";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.Font = new System.Drawing.Font("Tempus Sans ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(179, 15);
+            this.label2.Location = new System.Drawing.Point(232, 17);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 20);
+            this.label2.Size = new System.Drawing.Size(70, 27);
             this.label2.TabIndex = 31;
             this.label2.Text = "label2";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(16, 15);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(150, 20);
-            this.label1.TabIndex = 30;
-            this.label1.Text = "PREGUNTA PARA:";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(81, 206);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button1.FlatAppearance.BorderSize = 5;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.ForeColor = System.Drawing.Color.Transparent;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(292, 101);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(82, 30);
-            this.button1.TabIndex = 40;
-            this.button1.Text = "RESPUESTA";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Size = new System.Drawing.Size(239, 61);
+            this.button1.TabIndex = 53;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(67, 128);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton1.Location = new System.Drawing.Point(16, 215);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(14, 13);
             this.radioButton1.TabIndex = 41;
@@ -187,8 +161,8 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(67, 153);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton2.Location = new System.Drawing.Point(16, 240);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(14, 13);
             this.radioButton2.TabIndex = 42;
@@ -198,8 +172,8 @@
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(67, 179);
-            this.radioButton3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton3.Location = new System.Drawing.Point(16, 266);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(14, 13);
             this.radioButton3.TabIndex = 43;
@@ -209,7 +183,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(460, 215);
+            this.label10.Location = new System.Drawing.Point(460, 229);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(41, 13);
@@ -219,22 +193,46 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(460, 252);
+            this.label11.Location = new System.Drawing.Point(460, 266);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(41, 13);
             this.label11.TabIndex = 45;
             this.label11.Text = "label11";
             // 
-            // label12
+            // pictureBox1
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(364, 250);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(76, 15);
-            this.label12.TabIndex = 46;
-            this.label12.Text = "Tu Puntaje";
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(20, 15);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(195, 29);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 48;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(3, 146);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(76, 35);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 49;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(305, 240);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(128, 35);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 51;
+            this.pictureBox4.TabStop = false;
             // 
             // Musica
             // 
@@ -243,7 +241,9 @@
             this.BackgroundImage = global::mindruner2.Properties.Resources.a9c3a807_3d7f_4a75_b1fa_120a3936719d;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(533, 292);
-            this.Controls.Add(this.label12);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.radioButton3);
@@ -256,15 +256,15 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnpregunta);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Musica";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Musica";
             this.Load += new System.EventHandler(this.Musica_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -278,16 +278,15 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnpregunta;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }

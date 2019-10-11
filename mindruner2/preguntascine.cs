@@ -25,7 +25,7 @@ namespace mindruner2
             PYR[7, 0] = "¿Cómo se llama la primera película del Señor de los Anillos?";
             PYR[8, 0] = "¿De qué compañia es la película Las Cronicas de Narnia: el león, la bruja y el ropero?";
             PYR[9, 0] = "¿Como se llama el burro que acompaña siempre a Shrek?";
-            PYR[10, 0] ="¿En la pelicula Titanic: ¿Como se llaman los protagonistas principales?;
+            PYR[10, 0] ="¿En la pelicula Titanic: ¿Como se llaman los protagonistas principales?";
             PYR[11, 0] = "¿Cual película argentina ganó un premio Oscar en el 2010?";
             PYR[12, 0] = "¿Cómo se llama el robot alcohólico de la serie 'Futurama'?";
             PYR[13, 0] = "¿Cómo se llama el pájaro símbolo de los Juegos del Hambre?";
