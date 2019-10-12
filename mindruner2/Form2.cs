@@ -21,7 +21,7 @@ namespace mindruner2
         dado d4 = new dado();
         preguntados pregunta = new preguntados();
         bool semediolagana;
-        
+       
         public Form2 (Historia.verijugadores pq)
         {
             InitializeComponent();
@@ -67,6 +67,12 @@ namespace mindruner2
 
 
         }
+
+        internal static void Show(Action initializeComponent)
+        {
+            throw new NotImplementedException();
+        }
+
         public struct Datos4
         {
             public string Nombre;
@@ -79,6 +85,39 @@ namespace mindruner2
 
         private void Button1_Click(object sender, EventArgs e)
         {
+            /*   for (int i = 0; i <4; i++)
+               {
+                   if (i==0)
+                   {
+                       button1.Enabled = true;
+                       button2.Enabled = false;
+                       button3.Enabled = false;
+                       button4.Enabled = false;
+                   }
+                   if (i == 1)
+                   {
+                       button1.Enabled = false;
+                       button2.Enabled = true;
+                       button3.Enabled = false;
+                       button4.Enabled = false;
+                   }
+                   if (i == 2)
+                   {
+                       button1.Enabled = false;
+                       button2.Enabled = false;
+                       button3.Enabled = true;
+                       button4.Enabled = false;
+                   }
+
+                   if (i == 3)
+                   {
+                       button1.Enabled = false;
+                       button2.Enabled = false;
+                       button3.Enabled = false;
+                       button4.Enabled = true;
+                   }
+
+               }*/
             button1.Enabled = true;
             button2.Enabled = false;
             button3.Enabled = false;
@@ -289,38 +328,44 @@ namespace mindruner2
             Info1.Npregunta = label8.Text;
             Info1.Njugador = "1";
             
-                  
-                  
+
+
             {
                     switch (d1.numero)
                     {
                         case 1:
                             Form historia = new Historia(Info1);
                             historia.Show();
+                        
 
-                            break;
+                        break;
                         case 2:
                             Form geografia = new Geografia(Info1);
                             geografia.Show();
-                            break;
+                        
+                        break;
                         case 3:
                             Form Deportes = new deporte(Info1);
                             Deportes.Show();
-                            break;
+                      
+                        break;
                         case 4:
                             Form cine = new Cine(Info1);
                             cine.Show();
-                            break;
+                        
+                        break;
                         case 5:
                             Form musica = new Musica(Info1);
                             musica.Show();
-                            break;
+                        
+                        break;
                         case 6:
                             Form naturaleza = new Naturaleza(Info1);
                             naturaleza.Show();
-                            break;
+                        
+                        break;
 
-
+                        
                     }
                     
             }

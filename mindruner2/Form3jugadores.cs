@@ -47,9 +47,10 @@ namespace mindruner2
             Info.Nombre2 = txt2.Text;
             Info.Nombre3 = txt3.Text;
             Info.Nombre4 = txt4.Text;
-
+            this.Hide();
             Form2 obj = new Form2(Info);
             obj.ShowDialog();
+           
 
             //Jugadores.Carga(txt1.Text, txt2.Text, txt3.Text, txt4.Text);
             //lbl6.Text = Jugadores.Mostrar();
@@ -64,6 +65,8 @@ namespace mindruner2
 
         private void Button2_Click(object sender, EventArgs e)
         {
+            
+           
 
             this.Close();
             

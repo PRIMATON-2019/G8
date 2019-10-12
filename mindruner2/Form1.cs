@@ -41,7 +41,8 @@ namespace mindruner2
 
             Form tercerformulario = new Form3jugadores();
             tercerformulario.Show();
-            
+            this.Hide();
+
 
         }
 

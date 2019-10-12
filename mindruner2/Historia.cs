@@ -64,12 +64,7 @@ namespace mindruner2
 
 
         }
-        public bool juancito(bool puto)
-        {
-
-            return puto;
-        }
-
+       
         public void Button1_Click_1(object sender, EventArgs e)
         {
           
@@ -80,10 +75,8 @@ namespace mindruner2
                     MessageBox.Show("EL RESULTADO ES CORRECTO");
                     label11.Text = contador.SumaPuntaje(label10.Text);
                     verijugadores matermo;
-                    matermo.koko = true;
-                    this.Hide();
 
-
+                    this.Close();
 
                 }
                 else
@@ -92,7 +85,7 @@ namespace mindruner2
                     label11.Text = contador.VisualizarPuntaje(label10.Text);
                     verijugadores matermo;
                     matermo.koko = true;
-                    this.Hide();
+                    this.Close();
 
                 }
             }
@@ -104,7 +97,7 @@ namespace mindruner2
                     label11.Text = contador.SumaPuntaje(label10.Text);
                     verijugadores matermo;
                     matermo.koko = true;
-                    this.Hide();
+                    this.Close();
                 }
                 else
                 {
@@ -112,7 +105,7 @@ namespace mindruner2
                     label11.Text = contador.VisualizarPuntaje(label10.Text);
                     verijugadores matermo;
                     matermo.koko = true;
-                    this.Hide();
+                    this.Close();
                 }
             }
             if (radioButton3.Checked == true)
@@ -123,7 +116,7 @@ namespace mindruner2
                     label11.Text = contador.SumaPuntaje(label10.Text);
                     verijugadores matermo;
                     matermo.koko = true;
-                    this.Hide();
+                    this.Close();
                 }
                 else
                 {
@@ -131,7 +124,7 @@ namespace mindruner2
                     label11.Text = contador.VisualizarPuntaje(label10.Text);
                     verijugadores matermo;
                     matermo.koko = true;
-                    this.Hide();
+                    this.Close();
                 }
             }
         }
