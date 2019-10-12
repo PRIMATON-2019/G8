@@ -82,6 +82,7 @@ namespace mindruner2
                 {
                     MessageBox.Show("EL RESULTADO ES CORRECTO");
                     label11.Text = contador.SumaPuntaje(label10.Text);
+                    this.Close();
                 }
                 else
                 {
