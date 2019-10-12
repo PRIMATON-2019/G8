@@ -8,10 +8,12 @@ namespace mindruner2
 
 {
 
-    public class preguntas
+    public class Mensajes
     {
+       
 
-        string[,] pregunta = new string[,] { { "N", "0", "¿Cual es la relacion entre 3 integrantes del grupo de música Airbag?", "a. Primos.", "b. Hermanos.", "c. Amigos.", "b" } ,
+
+       /* string[,] pregunta = new string[,] { { "N", "0", "¿Cual es la relacion entre 3 integrantes del grupo de música Airbag?", "a. Primos.", "b. Hermanos.", "c. Amigos.", "b" } ,
                 {"N", "1", "¿Cual es el nombre del Hit del grupo de música Los Tipitos?", "a. Hechizo.", "b. Gualicho.", "c. Brujeria.", "c" } ,
                 {"N", "2", "¿Que instrumento tocaba Louis Armstrong?", "a. El piano.","b. El saxo.", "c. La trompeta.", "c" } ,
                 {"N", "3", "¿Cual es el nombre artístico de Bob Zimmerman?", "a. Bob Marley.", "b. Bob Dylan.", "c. Bob Hope.", "b" },
@@ -53,5 +55,10 @@ namespace mindruner2
                 {"R", "3", "¿Cual es el planeta más denso del sistema solar?", "a. Plutón.","b. Mercurio.","c. La Tierra.", "c" },
                 {"R", "4", "¿Que animal es la araña de mar?", "a.La ostra.", "b. La langosta.", "c. La centolla.", "c" },
                 {"R", "5", "¿Que estudia un herpetólogo?", "a. Reptiles.","b. Cavernas.","C. Herpes.", "a" } };
+                */
+
+
+
+
     }
 }
