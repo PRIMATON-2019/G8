@@ -109,7 +109,7 @@
             this.btnpregunta.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnpregunta.ForeColor = System.Drawing.Color.Transparent;
             this.btnpregunta.Image = ((System.Drawing.Image)(resources.GetObject("btnpregunta.Image")));
-            this.btnpregunta.Location = new System.Drawing.Point(305, 49);
+            this.btnpregunta.Location = new System.Drawing.Point(296, 49);
             this.btnpregunta.Margin = new System.Windows.Forms.Padding(2);
             this.btnpregunta.Name = "btnpregunta";
             this.btnpregunta.Size = new System.Drawing.Size(217, 48);
@@ -134,12 +134,12 @@
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.OrangeRed;
             this.button1.FlatAppearance.BorderSize = 5;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.ForeColor = System.Drawing.Color.Transparent;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(292, 101);
+            this.button1.Location = new System.Drawing.Point(283, 101);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(239, 61);
@@ -227,7 +227,7 @@
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(305, 240);
+            this.pictureBox4.Location = new System.Drawing.Point(296, 244);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(128, 35);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
