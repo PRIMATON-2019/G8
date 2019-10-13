@@ -83,7 +83,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(111, 184);
+            this.label6.Location = new System.Drawing.Point(96, 184);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(35, 13);
@@ -109,10 +109,10 @@
             this.btnpregunta.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnpregunta.ForeColor = System.Drawing.Color.Transparent;
             this.btnpregunta.Image = ((System.Drawing.Image)(resources.GetObject("btnpregunta.Image")));
-            this.btnpregunta.Location = new System.Drawing.Point(296, 49);
+            this.btnpregunta.Location = new System.Drawing.Point(325, 49);
             this.btnpregunta.Margin = new System.Windows.Forms.Padding(2);
             this.btnpregunta.Name = "btnpregunta";
-            this.btnpregunta.Size = new System.Drawing.Size(217, 48);
+            this.btnpregunta.Size = new System.Drawing.Size(188, 48);
             this.btnpregunta.TabIndex = 52;
             this.btnpregunta.UseVisualStyleBackColor = false;
             this.btnpregunta.Click += new System.EventHandler(this.Btnpregunta_Click);
@@ -123,7 +123,7 @@
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Tempus Sans ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(232, 17);
+            this.label2.Location = new System.Drawing.Point(235, 15);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 27);
