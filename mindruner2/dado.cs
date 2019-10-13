@@ -18,7 +18,7 @@ namespace mindruner2
 
         public void lanzar()
         {
-            materia = rnd.Next(1, 7);
+            materia = rnd.Next(1, 21);
             numero = rnd.Next(1, 7);
             switch (numero)
             {
