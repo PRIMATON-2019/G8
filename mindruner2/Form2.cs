@@ -443,7 +443,7 @@ namespace mindruner2
         }
 
         private void Button4_Click(object sender, EventArgs e)
-        {
+            {
             Datos4 Info4;
 
             Info4.Nombre = label4.Text;
