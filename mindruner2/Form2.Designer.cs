@@ -56,6 +56,11 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -81,7 +86,7 @@
             this.lbljugador1.AutoSize = true;
             this.lbljugador1.BackColor = System.Drawing.Color.Transparent;
             this.lbljugador1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbljugador1.Location = new System.Drawing.Point(114, 42);
+            this.lbljugador1.Location = new System.Drawing.Point(253, 21);
             this.lbljugador1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbljugador1.Name = "lbljugador1";
             this.lbljugador1.Size = new System.Drawing.Size(51, 20);
@@ -94,7 +99,7 @@
             this.lbljugador2.AutoSize = true;
             this.lbljugador2.BackColor = System.Drawing.Color.Transparent;
             this.lbljugador2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lbljugador2.Location = new System.Drawing.Point(300, 42);
+            this.lbljugador2.Location = new System.Drawing.Point(439, 21);
             this.lbljugador2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbljugador2.Name = "lbljugador2";
             this.lbljugador2.Size = new System.Drawing.Size(51, 20);
@@ -106,7 +111,7 @@
             this.lbljugador3.AutoSize = true;
             this.lbljugador3.BackColor = System.Drawing.Color.Transparent;
             this.lbljugador3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lbljugador3.Location = new System.Drawing.Point(462, 42);
+            this.lbljugador3.Location = new System.Drawing.Point(601, 21);
             this.lbljugador3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbljugador3.Name = "lbljugador3";
             this.lbljugador3.Size = new System.Drawing.Size(51, 20);
@@ -118,7 +123,7 @@
             this.lbljugador4.AutoSize = true;
             this.lbljugador4.BackColor = System.Drawing.Color.Transparent;
             this.lbljugador4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lbljugador4.Location = new System.Drawing.Point(648, 42);
+            this.lbljugador4.Location = new System.Drawing.Point(787, 21);
             this.lbljugador4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbljugador4.Name = "lbljugador4";
             this.lbljugador4.Size = new System.Drawing.Size(51, 20);
@@ -129,7 +134,7 @@
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Image = global::mindruner2.Properties.Resources.ani;
-            this.pictureBox4.Location = new System.Drawing.Point(612, 95);
+            this.pictureBox4.Location = new System.Drawing.Point(751, 74);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(136, 129);
@@ -141,7 +146,7 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = global::mindruner2.Properties.Resources.ani;
-            this.pictureBox3.Location = new System.Drawing.Point(426, 95);
+            this.pictureBox3.Location = new System.Drawing.Point(565, 74);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(152, 129);
@@ -153,7 +158,7 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::mindruner2.Properties.Resources.ani;
-            this.pictureBox2.Location = new System.Drawing.Point(248, 95);
+            this.pictureBox2.Location = new System.Drawing.Point(387, 74);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(144, 129);
@@ -165,7 +170,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::mindruner2.Properties.Resources.ani;
-            this.pictureBox1.Location = new System.Drawing.Point(75, 95);
+            this.pictureBox1.Location = new System.Drawing.Point(214, 74);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(144, 129);
@@ -347,7 +352,7 @@
             this.button1.BackColor = System.Drawing.Color.Black;
             this.button1.Font = new System.Drawing.Font("Comic Sans MS", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(722, 503);
+            this.button1.Location = new System.Drawing.Point(922, 503);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(147, 45);
@@ -361,7 +366,7 @@
             this.button2.BackColor = System.Drawing.Color.Black;
             this.button2.Font = new System.Drawing.Font("Comic Sans MS", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(722, 552);
+            this.button2.Location = new System.Drawing.Point(922, 551);
             this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(147, 45);
@@ -375,7 +380,7 @@
             this.button3.BackColor = System.Drawing.Color.Black;
             this.button3.Font = new System.Drawing.Font("Comic Sans MS", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(722, 598);
+            this.button3.Location = new System.Drawing.Point(922, 597);
             this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(147, 45);
@@ -389,7 +394,7 @@
             this.button4.BackColor = System.Drawing.Color.Black;
             this.button4.Font = new System.Drawing.Font("Comic Sans MS", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(722, 645);
+            this.button4.Location = new System.Drawing.Point(922, 644);
             this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(147, 45);
@@ -398,6 +403,62 @@
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.Button4_Click);
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.Transparent;
+            this.label16.Font = new System.Drawing.Font("Bookman Old Style", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label16.Location = new System.Drawing.Point(695, 466);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(112, 24);
+            this.label16.TabIndex = 31;
+            this.label16.Text = "PUNTAGE";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label17.Location = new System.Drawing.Point(702, 528);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(15, 20);
+            this.label17.TabIndex = 32;
+            this.label17.Text = "*";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.Transparent;
+            this.label18.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label18.Location = new System.Drawing.Point(702, 567);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(15, 20);
+            this.label18.TabIndex = 33;
+            this.label18.Text = "*";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.Transparent;
+            this.label19.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label19.Location = new System.Drawing.Point(702, 608);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(15, 20);
+            this.label19.TabIndex = 34;
+            this.label19.Text = "*";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.Transparent;
+            this.label20.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label20.Location = new System.Drawing.Point(702, 648);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(15, 20);
+            this.label20.TabIndex = 35;
+            this.label20.Text = "*";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -405,7 +466,12 @@
             this.BackColor = System.Drawing.Color.MintCream;
             this.BackgroundImage = global::mindruner2.Properties.Resources.Dados;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(932, 735);
+            this.ClientSize = new System.Drawing.Size(1171, 735);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label16);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -476,5 +542,10 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label20;
     }
 }

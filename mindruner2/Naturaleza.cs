@@ -46,239 +46,52 @@ namespace mindruner2
 
         private void BtnQuit_Click(object sender, EventArgs e)
         {
-           
-            switch (Convert.ToInt32(label1.Text))
+
+            if (radioButton1.Checked == true)
             {
-                case 1:
-                    if (radioButton1.Checked == true)
-                    {
-                        if (ValorRespuesta == 1)
-                        {
-                            MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
-                            label2.Text = Convert.ToString(contador.SumaPuntaje1());
-                            MessageBox.Show("te puntage es de" + (label12.Text));
-                            this.Hide();
+                if (ValorRespuesta == 1)
+                {
+                    MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
+                    btnok.Visible = true;
 
-                        }
-                        else
-                        {
-                            MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
-                            label2.Text = contador.VisualizarPuntaje1();
 
-                            MessageBox.Show("te puntage es de" + (label2.Text));
-                            this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
+                    btncancel.Visible = true;
 
-                        }
-                    }
-                    if (radioButton2.Checked == true)
-                    {
-                        if (ValorRespuesta == 2)
-                        {
-                            MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
-                            label2.Text = Convert.ToString(contador.SumaPuntaje1());
-                            MessageBox.Show("te puntage es de" + (label12.Text));
-                            this.Hide();
-                        }
-                        else
-                        {
-                            MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
-                            label2.Text = contador.VisualizarPuntaje1();
 
-                            MessageBox.Show("te puntage es de" + (label2.Text));
-                            this.Close();
-                        }
-                    }
-                    if (radioButton3.Checked == true)
-                    {
-                        if (ValorRespuesta == 3)
-                        {
-                            MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
-                            label2.Text = Convert.ToString(contador.SumaPuntaje1());
-                            MessageBox.Show("te puntage es de" + (label12.Text));
-                            this.Hide();
-                        }
-                        else
-                        {
-                            MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
-                            label2.Text = contador.VisualizarPuntaje1();
+                }
+            }
+            if (radioButton2.Checked == true)
+            {
+                if (ValorRespuesta == 2)
+                {
+                    MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
+                    btnok.Visible = true;
 
-                            MessageBox.Show("te puntage es de" + (label2.Text));
-                            this.Close();
-                        }
-                    }
-                    break;
-                case 2:
-                    if (radioButton1.Checked == true)
-                    {
-                        if (ValorRespuesta == 1)
-                        {
-                            MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
-                            label2.Text = Convert.ToString(contador.SumaPuntaje2());
-                            MessageBox.Show("te puntage es de" + (label12.Text));
-                            this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
+                    btncancel.Visible = true;
+                }
+            }
+            if (radioButton3.Checked == true)
+            {
+                if (ValorRespuesta == 3)
+                {
+                    MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
+                    btnok.Visible = true;
 
-                        }
-                        else
-                        {
-                            MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
-                            label2.Text = contador.VisualizarPuntaje2();
+                }
+                else
+                {
+                    MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
+                    btncancel.Visible = true;
 
-                            MessageBox.Show("te puntage es de" + (label2.Text));
-                            this.Close();
-
-                        }
-                    }
-                    if (radioButton2.Checked == true)
-                    {
-                        if (ValorRespuesta == 2)
-                        {
-                            MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
-                            label2.Text = Convert.ToString(contador.SumaPuntaje2());
-                            MessageBox.Show("te puntage es de" + (label12.Text));
-                            this.Hide();
-                        }
-                        else
-                        {
-                            MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
-                            label2.Text = contador.VisualizarPuntaje2();
-
-                            MessageBox.Show("te puntage es de" + (label2.Text));
-                            this.Close();
-                        }
-                    }
-                    if (radioButton3.Checked == true)
-                    {
-                        if (ValorRespuesta == 3)
-                        {
-                            MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
-                            label2.Text = Convert.ToString(contador.SumaPuntaje2());
-                            MessageBox.Show("te puntage es de" + (label12.Text));
-                            this.Hide();
-                        }
-                        else
-                        {
-                            MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
-                            label2.Text = contador.VisualizarPuntaje2();
-
-                            MessageBox.Show("te puntage es de" + (label2.Text));
-                            this.Close();
-                        }
-                    }
-                    break;
-                case 3:
-                    if (radioButton1.Checked == true)
-                    {
-                        if (ValorRespuesta == 1)
-                        {
-                            MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
-                            label2.Text = Convert.ToString(contador.SumaPuntaje3());
-                            MessageBox.Show("te puntage es de" + (label12.Text));
-                            this.Hide();
-                        }
-                        else
-                        {
-                            MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
-                            label2.Text = contador.VisualizarPuntaje3();
-
-                            MessageBox.Show("te puntage es de" + (label2.Text));
-                            this.Close();
-
-                        }
-                    }
-                    if (radioButton2.Checked == true)
-                    {
-                        if (ValorRespuesta == 2)
-                        {
-                            MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
-                            label2.Text = Convert.ToString(contador.SumaPuntaje3());
-                            MessageBox.Show("te puntage es de" + (label12.Text));
-                            this.Hide();
-                        }
-                        else
-                        {
-                            MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
-                            label2.Text = contador.VisualizarPuntaje3();
-
-                            MessageBox.Show("te puntage es de" + (label2.Text));
-                            this.Close();
-                        }
-                    }
-                    if (radioButton3.Checked == true)
-                    {
-                        if (ValorRespuesta == 3)
-                        {
-                            MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
-                            label2.Text = Convert.ToString(contador.SumaPuntaje3());
-                            MessageBox.Show("te puntage es de" + (label12.Text));
-                            this.Hide();
-                        }
-                        else
-                        {
-                            MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
-                            label2.Text = contador.VisualizarPuntaje3();
-
-                            MessageBox.Show("te puntage es de" + (label2.Text));
-                            this.Close();
-                        }
-                    }
-                    break;
-                case 4:
-                    if (radioButton1.Checked == true)
-                    {
-                        if (ValorRespuesta == 1)
-                        {
-                            MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
-                            label2.Text = Convert.ToString(contador.SumaPuntaje4());
-                            MessageBox.Show("te puntage es de" + (label12.Text));
-                            this.Hide();
-                        }
-                        else
-                        {
-                            MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
-                            label2.Text = contador.VisualizarPuntaje4();
-
-                            MessageBox.Show("te puntage es de" + (label2.Text));
-                            this.Close();
-
-                        }
-                    }
-                    if (radioButton2.Checked == true)
-                    {
-                        if (ValorRespuesta == 2)
-                        {
-                            MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
-                            label2.Text = Convert.ToString(contador.SumaPuntaje4());
-                            MessageBox.Show("te puntage es de" + (label12.Text));
-                            this.Hide();
-                        }
-                        else
-                        {
-                            MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
-                            label2.Text = contador.VisualizarPuntaje4();
-
-                            MessageBox.Show("te puntage es de" + (label2.Text));
-                            this.Close();
-                        }
-                    }
-                    if (radioButton3.Checked == true)
-                    {
-                        if (ValorRespuesta == 3)
-                        {
-                            MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
-                            label2.Text = Convert.ToString(contador.SumaPuntaje4());
-                            MessageBox.Show("te puntage es de" + (label12.Text));
-                            this.Hide();
-                        }
-                        else
-                        {
-                            MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
-                            label2.Text = contador.VisualizarPuntaje4();
-
-                            MessageBox.Show("te puntage es de" + (label2.Text));
-                            this.Close();
-                        }
-                    }
-                    break;
+                }
             }
         }
 
@@ -296,6 +109,16 @@ namespace mindruner2
         private void Label10_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Btnok_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Btncancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

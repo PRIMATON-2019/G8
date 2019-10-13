@@ -22,14 +22,13 @@ namespace mindruner2
         dado d3 = new dado();
         dado d4 = new dado();
         preguntados pregunta = new preguntados();
-        bool semediolagana;
-       
-        public Form2 (Historia.verijugadores pq)
-        {
-            InitializeComponent();
-            semediolagana = pq.koko;
+        int cont1 = 0;
+        int cont2 = 0;
+        int cont3 = 0;
+        int cont4 = 0;
 
-        }
+
+        
         public Form2(Form3jugadores.Datos info)
 
         {
@@ -83,6 +82,7 @@ namespace mindruner2
             public string Njugador;
         }
         Lista Jugadores = new Lista();
+        Suma contador = new Suma();
 
 
         private void Button1_Click(object sender, EventArgs e)
@@ -310,33 +310,56 @@ namespace mindruner2
                     {
                         case 1:
                             Form historia = new Historia(Info1);
-                            historia.Show();
+                            if (historia.ShowDialog()==DialogResult.OK)
+                            {
+                              cont1 = contador.SumaPuntaje1();
+                              label17.Text = Convert.ToString(cont1);
+                            }
                         
 
                         break;
                         case 2:
                             Form geografia = new Geografia(Info1);
-                            geografia.Show();
-                        
+                        if (geografia.ShowDialog() == DialogResult.OK)
+                        {
+                            cont1 = contador.SumaPuntaje1();
+                            label17.Text = Convert.ToString(cont1);
+                        }
+
                         break;
                         case 3:
                             Form Deportes = new deporte(Info1);
-                            Deportes.Show();
-                      
+                        if (Deportes.ShowDialog() == DialogResult.OK)
+                        {
+                            cont1 = contador.SumaPuntaje1();
+                            label17.Text = Convert.ToString(cont1);
+                        }
+
                         break;
                         case 4:
                             Form cine = new Cine(Info1);
-                            cine.Show();
-                        
+                            if (cine.ShowDialog() == DialogResult.OK)
+                            {
+                             cont1 = contador.SumaPuntaje1();
+                             label17.Text = Convert.ToString(cont1);
+                            }
+
                         break;
                         case 5:
                             Form musica = new Musica(Info1);
-                            musica.Show();
-                        
+                            if (musica.ShowDialog() == DialogResult.OK)
+                            {
+                             cont1 = contador.SumaPuntaje1();
+                             label17.Text = Convert.ToString(cont1);
+                            }
                         break;
                         case 6:
                             Form naturaleza = new Naturaleza(Info1);
-                            naturaleza.Show();
+                        if (naturaleza.ShowDialog() == DialogResult.OK)
+                        {
+                            cont1 = contador.SumaPuntaje1();
+                            label17.Text = Convert.ToString(cont1);
+                        };
                         
                         break;
 
@@ -367,28 +390,52 @@ namespace mindruner2
             {
                 case 1:
                     Form historia = new Historia(Info2);
-                    historia.Show();
+                    if (historia.ShowDialog() == DialogResult.OK)
+                    {
+                        cont2 = contador.SumaPuntaje2();
+                        label18.Text = Convert.ToString(cont2);
+                    }
 
                     break;
                 case 2:
                     Form geografia = new Geografia(Info2);
-                    geografia.Show();
+                    if (geografia.ShowDialog() == DialogResult.OK)
+                    {
+                        cont2 = contador.SumaPuntaje2();
+                        label18.Text = Convert.ToString(cont2);
+                    }
                     break;
                 case 3:
                     Form Deportes = new deporte(Info2);
-                    Deportes.Show();
+                    if (Deportes.ShowDialog() == DialogResult.OK)
+                    {
+                        cont2 = contador.SumaPuntaje2();
+                        label18.Text = Convert.ToString(cont2);
+                    }
                     break;
                 case 4:
                     Form cine = new Cine(Info2);
-                    cine.Show();
+                    if (cine.ShowDialog() == DialogResult.OK)
+                    {
+                        cont2 = contador.SumaPuntaje2();
+                        label18.Text = Convert.ToString(cont2);
+                    }
                     break;
                 case 5:
                     Form musica = new Musica(Info2);
-                    musica.Show();
+                    if (musica.ShowDialog() == DialogResult.OK)
+                    {
+                        cont2 = contador.SumaPuntaje2();
+                        label18.Text = Convert.ToString(cont2);
+                    }
                     break;
                 case 6:
                     Form naturaleza = new Naturaleza(Info2);
-                    naturaleza.Show();
+                    if (naturaleza.ShowDialog() == DialogResult.OK)
+                    {
+                        cont2 = contador.SumaPuntaje2();
+                        label18.Text = Convert.ToString(cont2);
+                    }
                     break;
 
 
@@ -413,28 +460,52 @@ namespace mindruner2
             {
                 case 1:
                     Form historia = new Historia(Info3);
-                    historia.Show();
+                    if (historia.ShowDialog() == DialogResult.OK)
+                    {
+                        cont3 = contador.SumaPuntaje3();
+                        label19.Text = Convert.ToString(cont3);
+                    }
 
                     break;
                 case 2:
                     Form geografia = new Geografia(Info3);
-                    geografia.Show();
+                    if (geografia.ShowDialog() == DialogResult.OK)
+                    {
+                        cont3 = contador.SumaPuntaje3();
+                        label19.Text = Convert.ToString(cont3);
+                    }
                     break;
                 case 3:
                     Form Deportes = new deporte(Info3);
-                    Deportes.Show();
+                    if (Deportes.ShowDialog() == DialogResult.OK)
+                    {
+                        cont3 = contador.SumaPuntaje3();
+                        label19.Text = Convert.ToString(cont3);
+                    }
                     break;
                 case 4:
                     Form cine = new Cine(Info3);
-                    cine.Show();
+                    if (cine.ShowDialog() == DialogResult.OK)
+                    {
+                        cont3 = contador.SumaPuntaje3();
+                        label19.Text = Convert.ToString(cont3);
+                    }
                     break;
                 case 5:
                     Form musica = new Musica(Info3);
-                    musica.Show();
+                    if (musica.ShowDialog() == DialogResult.OK)
+                    {
+                        cont3 = contador.SumaPuntaje3();
+                        label19.Text = Convert.ToString(cont3);
+                    }
                     break;
                 case 6:
                     Form naturaleza = new Naturaleza(Info3);
-                    naturaleza.Show();
+                    if (naturaleza.ShowDialog() == DialogResult.OK)
+                    {
+                        cont3 = contador.SumaPuntaje3();
+                        label19.Text = Convert.ToString(cont3);
+                    }
                     break;
 
 
@@ -461,28 +532,52 @@ namespace mindruner2
             {
                 case 1:
                     Form historia = new Historia(Info4);
-                    historia.Show();
+                    if (historia.ShowDialog() == DialogResult.OK)
+                    {
+                        cont4 = contador.SumaPuntaje4();
+                        label20.Text = Convert.ToString(cont4);
+                    }
 
                     break;
                 case 2:
                     Form geografia = new Geografia(Info4);
-                    geografia.Show();
+                    if (geografia.ShowDialog() == DialogResult.OK)
+                    {
+                        cont4 = contador.SumaPuntaje4();
+                        label20.Text = Convert.ToString(cont4);
+                    }
                     break;
                 case 3:
                     Form Deportes = new deporte(Info4);
-                    Deportes.Show();
+                    if (Deportes.ShowDialog() == DialogResult.OK)
+                    {
+                        cont4 = contador.SumaPuntaje4();
+                        label20.Text = Convert.ToString(cont4);
+                    }
                     break;
                 case 4:
                     Form cine = new Cine(Info4);
-                    cine.Show();
+                    if (cine.ShowDialog() == DialogResult.OK)
+                    {
+                        cont4 = contador.SumaPuntaje4();
+                        label20.Text = Convert.ToString(cont4);
+                    }
                     break;
                 case 5:
                     Form musica = new Musica(Info4);
-                    musica.Show();
+                    if (musica.ShowDialog() == DialogResult.OK)
+                    {
+                        cont4 = contador.SumaPuntaje4();
+                        label20.Text = Convert.ToString(cont4);
+                    }
                     break;
                 case 6:
                     Form naturaleza = new Naturaleza(Info4);
-                    naturaleza.Show();
+                    if (naturaleza.ShowDialog() == DialogResult.OK)
+                    {
+                        cont4 = contador.SumaPuntaje4();
+                        label20.Text = Convert.ToString(cont4);
+                    }
                     break;
 
                    
