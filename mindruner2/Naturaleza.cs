@@ -292,5 +292,10 @@ namespace mindruner2
             label9.Text = BuscarPregunta.opc3(label5.Text);
             ValorRespuesta = Convert.ToInt32(BuscarPregunta.resultado(label5.Text));
         }
+
+        private void Label10_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

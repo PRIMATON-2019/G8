@@ -328,5 +328,38 @@
   <ItemGroup>
     <None Include="Resources\boton estilo inicio1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PreguntaNaturaleza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\REspuestaNaturaleza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TePuntajeNaturaleza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Naturaleza2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TEMANATURALEZA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pregunta Para SIN FONDONATURALEZA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pregunta Para Sin Fondo.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tema SinFondo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotonMejoradoPregunta.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotonRespuestaFinalMejorado.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TuPuntajeSinFondo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

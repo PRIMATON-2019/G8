@@ -109,10 +109,10 @@
             this.btnpregunta.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnpregunta.ForeColor = System.Drawing.Color.Transparent;
             this.btnpregunta.Image = ((System.Drawing.Image)(resources.GetObject("btnpregunta.Image")));
-            this.btnpregunta.Location = new System.Drawing.Point(325, 49);
+            this.btnpregunta.Location = new System.Drawing.Point(296, 49);
             this.btnpregunta.Margin = new System.Windows.Forms.Padding(2);
             this.btnpregunta.Name = "btnpregunta";
-            this.btnpregunta.Size = new System.Drawing.Size(188, 48);
+            this.btnpregunta.Size = new System.Drawing.Size(217, 48);
             this.btnpregunta.TabIndex = 52;
             this.btnpregunta.UseVisualStyleBackColor = false;
             this.btnpregunta.Click += new System.EventHandler(this.Btnpregunta_Click);

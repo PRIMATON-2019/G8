@@ -161,6 +161,26 @@ namespace mindruner2.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BotonMejoradoPregunta_fw {
+            get {
+                object obj = ResourceManager.GetObject("BotonMejoradoPregunta.fw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BotonRespuestaFinalMejorado_fw {
+            get {
+                object obj = ResourceManager.GetObject("BotonRespuestaFinalMejorado.fw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream Chrono_Cross_Opening_HD {
@@ -330,6 +350,66 @@ namespace mindruner2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Naturaleza2 {
+            get {
+                object obj = ResourceManager.GetObject("Naturaleza2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pregunta_Para_Sin_Fondo_fw {
+            get {
+                object obj = ResourceManager.GetObject("Pregunta Para Sin Fondo.fw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pregunta_Para_Sin_Fondo1 {
+            get {
+                object obj = ResourceManager.GetObject("Pregunta Para Sin Fondo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pregunta_Para_SIN_FONDONATURALEZA {
+            get {
+                object obj = ResourceManager.GetObject("Pregunta Para SIN FONDONATURALEZA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PreguntaNaturaleza {
+            get {
+                object obj = ResourceManager.GetObject("PreguntaNaturaleza", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap REspuestaNaturaleza {
+            get {
+                object obj = ResourceManager.GetObject("REspuestaNaturaleza", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap shutterstock_deportes_g {
             get {
                 object obj = ResourceManager.GetObject("shutterstock_deportes_g", resourceCulture);
@@ -360,6 +440,36 @@ namespace mindruner2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Tema_SinFondo {
+            get {
+                object obj = ResourceManager.GetObject("Tema SinFondo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TEMANATURALEZA {
+            get {
+                object obj = ResourceManager.GetObject("TEMANATURALEZA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TePuntajeNaturaleza {
+            get {
+                object obj = ResourceManager.GetObject("TePuntajeNaturaleza", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap the_legend_of_zelda_link_wind_waker {
             get {
                 object obj = ResourceManager.GetObject("the-legend-of-zelda-link-wind-waker", resourceCulture);
@@ -373,6 +483,16 @@ namespace mindruner2.Properties {
         internal static System.Drawing.Bitmap TSR_Sonic {
             get {
                 object obj = ResourceManager.GetObject("TSR_Sonic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TuPuntajeSinFondo {
+            get {
+                object obj = ResourceManager.GetObject("TuPuntajeSinFondo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
