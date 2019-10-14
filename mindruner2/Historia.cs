@@ -126,6 +126,11 @@ namespace mindruner2
         {
             this.Close();
         }
+
+        private void Historia_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

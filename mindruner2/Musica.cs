@@ -123,5 +123,10 @@ namespace mindruner2
         {
             this.Close();
         }
+
+        private void Label9_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

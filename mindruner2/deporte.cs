@@ -119,5 +119,15 @@ namespace mindruner2
         {
             this.Close();
         }
+
+        private void Deporte_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label9_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

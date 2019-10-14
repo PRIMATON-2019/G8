@@ -112,5 +112,10 @@ namespace mindruner2
         {
             this.Close();
         }
+
+        private void Geografia_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
