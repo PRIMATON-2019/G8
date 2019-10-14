@@ -16,7 +16,8 @@ namespace mindruner2
      
 
 	
-        int[] pepe = new int[4];
+        string[,] pepe = new string[4,2];
+        Lista Jugadores = new Lista();
         dado d1 = new dado();
         dado d2 = new dado();
         dado d3 = new dado();
@@ -81,7 +82,7 @@ namespace mindruner2
             public string Npregunta;
             public string Njugador;
         }
-        Lista Jugadores = new Lista();
+        
         Suma contador = new Suma();
         int J = 1;
 
@@ -89,201 +90,211 @@ namespace mindruner2
         private void Button1_Click(object sender, EventArgs e)
         {
             
-            MessageBox.Show("RONDA N." + Convert.ToString(J));
-            J++;
-            btnlanzar.Enabled = false;
-            button1.Enabled = true;
-            button2.Enabled = false;
-            button3.Enabled = false;
-            button4.Enabled = false;
-            Jugadores.Carga(lbljugador1.Text, lbljugador2.Text, lbljugador3.Text, lbljugador4.Text);
-
-            d1.lanzar();
-            d2.lanzar();
-            d3.lanzar();
-            d4.lanzar();
-
-            for (int i = 0; i < 10; i++)
+           
+            if (J==3)
             {
-
-
-
-                if (d1.numero == d2.numero)
-                {
-                    d2.lanzar();
-
-                }
-                if (d2.numero == d3.numero)
-                {
-
-                    d3.lanzar();
-                }
-
-                if (d1.numero == d3.numero)
-                {
-                    d3.lanzar();
-
-                }
-                if (d4.numero == d1.numero)
-                {
-                    d4.lanzar();
-
-                }
-                if (d4.numero == d2.numero)
-                {
-                    d4.lanzar();
-                }
-
-                if (d3.numero == d4.numero)
-                {
-                    d4.lanzar();
-                }
-
+               pepe = Jugadores.quiengana(label1.Text,label2.Text,label3.Text,label4.Text,label17.Text,label18.Text,label19.Text,label20.Text);
             }
-            label1.Text = lbljugador1.Text;
-            label2.Text = lbljugador2.Text;
-            label3.Text = lbljugador3.Text;
-            label4.Text = lbljugador4.Text;
-            label5.Text = Convert.ToString(d1.materia);
-            label6.Text = Convert.ToString(d2.materia);
-            label7.Text = Convert.ToString(d3.materia);
-            label12.Text = Convert.ToString(d4.materia);
-            label8.Text = d1.tema;
-            label11.Text = d2.tema;
-            label10.Text = d3.tema;
-            label9.Text = d4.tema;
-
-            switch (d1.numero)
+            else
             {
-                case 1:
+                MessageBox.Show("RONDA N." + Convert.ToString(J));
+                J++;
+                btnlanzar.Enabled = false;
+                button1.Enabled = true;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                //Jugadores.Carga(lbljugador1.Text, lbljugador2.Text, lbljugador3.Text, lbljugador4.Text);
+
+                d1.lanzar();
+                d2.lanzar();
+                d3.lanzar();
+                d4.lanzar();
+
+                for (int i = 0; i < 10; i++)
+                {
 
 
-                    pictureBox1.Image = mindruner2.Properties.Resources.lado1;
-                    break;
 
-                case 2:
+                    if (d1.numero == d2.numero)
+                    {
+                        d2.lanzar();
 
-                    pictureBox1.Image = mindruner2.Properties.Resources.lado2;
-                    break;
+                    }
+                    if (d2.numero == d3.numero)
+                    {
 
-                case 3:
+                        d3.lanzar();
+                    }
 
-                    pictureBox1.Image = mindruner2.Properties.Resources.lado3;
-                    break;
+                    if (d1.numero == d3.numero)
+                    {
+                        d3.lanzar();
 
-                case 4:
+                    }
+                    if (d4.numero == d1.numero)
+                    {
+                        d4.lanzar();
 
-                    pictureBox1.Image = mindruner2.Properties.Resources.lado4;
-                    break;
+                    }
+                    if (d4.numero == d2.numero)
+                    {
+                        d4.lanzar();
+                    }
 
-                case 5:
+                    if (d3.numero == d4.numero)
+                    {
+                        d4.lanzar();
+                    }
 
-                    pictureBox1.Image = mindruner2.Properties.Resources.lado5;
-                    break;
+                }
+                label1.Text = lbljugador1.Text;
+                label2.Text = lbljugador2.Text;
+                label3.Text = lbljugador3.Text;
+                label4.Text = lbljugador4.Text;
+                label5.Text = Convert.ToString(d1.materia);
+                label6.Text = Convert.ToString(d2.materia);
+                label7.Text = Convert.ToString(d3.materia);
+                label12.Text = Convert.ToString(d4.materia);
+                label8.Text = d1.tema;
+                label11.Text = d2.tema;
+                label10.Text = d3.tema;
+                label9.Text = d4.tema;
 
-                case 6:
+                switch (d1.numero)
+                {
+                    case 1:
 
-                    pictureBox1.Image = mindruner2.Properties.Resources.lado6;
-                    break;
-            }
 
-            switch (d2.numero)
-            {
-                case 1:
+                        pictureBox1.Image = mindruner2.Properties.Resources.lado1;
+                        break;
 
-                    pictureBox2.Image = mindruner2.Properties.Resources.lado1;
-                    break;
+                    case 2:
 
-                case 2:
+                        pictureBox1.Image = mindruner2.Properties.Resources.lado2;
+                        break;
 
-                    pictureBox2.Image = mindruner2.Properties.Resources.lado2;
-                    break;
+                    case 3:
 
-                case 3:
+                        pictureBox1.Image = mindruner2.Properties.Resources.lado3;
+                        break;
 
-                    pictureBox2.Image = mindruner2.Properties.Resources.lado3;
-                    break;
+                    case 4:
 
-                case 4:
+                        pictureBox1.Image = mindruner2.Properties.Resources.lado4;
+                        break;
 
-                    pictureBox2.Image = mindruner2.Properties.Resources.lado4;
-                    break;
+                    case 5:
 
-                case 5:
+                        pictureBox1.Image = mindruner2.Properties.Resources.lado5;
+                        break;
 
-                    pictureBox2.Image = mindruner2.Properties.Resources.lado5;
-                    break;
+                    case 6:
 
-                case 6:
+                        pictureBox1.Image = mindruner2.Properties.Resources.lado6;
+                        break;
+                }
 
-                    pictureBox2.Image = mindruner2.Properties.Resources.lado6;
-                    break;
-            }
+                switch (d2.numero)
+                {
+                    case 1:
 
-            switch (d3.numero)
-            {
-                case 1:
+                        pictureBox2.Image = mindruner2.Properties.Resources.lado1;
+                        break;
 
-                    pictureBox3.Image = mindruner2.Properties.Resources.lado1;
-                    break;
+                    case 2:
 
-                case 2:
+                        pictureBox2.Image = mindruner2.Properties.Resources.lado2;
+                        break;
 
-                    pictureBox3.Image = mindruner2.Properties.Resources.lado2;
-                    break;
+                    case 3:
 
-                case 3:
+                        pictureBox2.Image = mindruner2.Properties.Resources.lado3;
+                        break;
 
-                    pictureBox3.Image = mindruner2.Properties.Resources.lado3;
-                    break;
+                    case 4:
 
-                case 4:
+                        pictureBox2.Image = mindruner2.Properties.Resources.lado4;
+                        break;
 
-                    pictureBox3.Image = mindruner2.Properties.Resources.lado4;
-                    break;
+                    case 5:
 
-                case 5:
+                        pictureBox2.Image = mindruner2.Properties.Resources.lado5;
+                        break;
 
-                    pictureBox3.Image = mindruner2.Properties.Resources.lado5;
-                    break;
+                    case 6:
 
-                case 6:
+                        pictureBox2.Image = mindruner2.Properties.Resources.lado6;
+                        break;
+                }
 
-                    pictureBox3.Image = mindruner2.Properties.Resources.lado6;
-                    break;
-            }
+                switch (d3.numero)
+                {
+                    case 1:
 
-            switch (d4.numero)
-            {
-                case 1:
+                        pictureBox3.Image = mindruner2.Properties.Resources.lado1;
+                        break;
 
-                    pictureBox4.Image = mindruner2.Properties.Resources.lado1;
-                    break;
+                    case 2:
 
-                case 2:
+                        pictureBox3.Image = mindruner2.Properties.Resources.lado2;
+                        break;
 
-                    pictureBox4.Image = mindruner2.Properties.Resources.lado2;
-                    break;
+                    case 3:
 
-                case 3:
+                        pictureBox3.Image = mindruner2.Properties.Resources.lado3;
+                        break;
 
-                    pictureBox4.Image = mindruner2.Properties.Resources.lado3;
-                    break;
+                    case 4:
 
-                case 4:
+                        pictureBox3.Image = mindruner2.Properties.Resources.lado4;
+                        break;
 
-                    pictureBox4.Image = mindruner2.Properties.Resources.lado4;
-                    break;
+                    case 5:
 
-                case 5:
+                        pictureBox3.Image = mindruner2.Properties.Resources.lado5;
+                        break;
 
-                    pictureBox4.Image = mindruner2.Properties.Resources.lado5;
-                    break;
+                    case 6:
 
-                case 6:
+                        pictureBox3.Image = mindruner2.Properties.Resources.lado6;
+                        break;
+                }
 
-                    pictureBox4.Image = mindruner2.Properties.Resources.lado6;
-                    break;
+                switch (d4.numero)
+                {
+                    case 1:
+
+                        pictureBox4.Image = mindruner2.Properties.Resources.lado1;
+                        break;
+
+                    case 2:
+
+                        pictureBox4.Image = mindruner2.Properties.Resources.lado2;
+                        break;
+
+                    case 3:
+
+                        pictureBox4.Image = mindruner2.Properties.Resources.lado3;
+                        break;
+
+                    case 4:
+
+                        pictureBox4.Image = mindruner2.Properties.Resources.lado4;
+                        break;
+
+                    case 5:
+
+                        pictureBox4.Image = mindruner2.Properties.Resources.lado5;
+                        break;
+
+                    case 6:
+
+                        pictureBox4.Image = mindruner2.Properties.Resources.lado6;
+                        break;
+                }
+
+
             }
 
         }

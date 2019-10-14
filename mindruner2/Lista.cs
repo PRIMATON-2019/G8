@@ -9,39 +9,48 @@ namespace mindruner2
     public class Lista
     {
         #region Propiedades 
-        public string[,] Jugador = new string[4, 3];
-        
-        public int puntaje1 = 0;
-        public int puntaje2 = 0;
-        public int puntaje3 = 0;
-        public int puntaje4 = 0;
+        public string[,] Jugador = new string[4, 2];
+
+
         #region Metodos
-        public string[,] Carga(string ParametroJugador1, string ParametroJugador2, string ParametroJugador3, string ParametroJugador4)
+        public string[,] quiengana(string j1, string j2, string j3, string j4, string p1, string p2, string p3, string p4)
         {
-            int ProximaPosicion = 0;
-            Jugador[ProximaPosicion, 0] = ParametroJugador1;
-            Jugador[ProximaPosicion, 1] = Convert.ToString(1);
-            Jugador[ProximaPosicion, 2] = Convert.ToString(puntaje1);
-            ProximaPosicion++;
-            Jugador[ProximaPosicion, 0] = ParametroJugador2;
-            Jugador[ProximaPosicion, 1] = Convert.ToString(2);
-            Jugador[ProximaPosicion, 2] = Convert.ToString(puntaje2);
-            ProximaPosicion++;
-            Jugador[ProximaPosicion, 0] = ParametroJugador3;
-            Jugador[ProximaPosicion, 1] = Convert.ToString(3);
-            Jugador[ProximaPosicion, 2] = Convert.ToString(puntaje3);
-            ProximaPosicion++;
-            Jugador[ProximaPosicion, 0] = ParametroJugador4;
-            Jugador[ProximaPosicion, 1] = Convert.ToString(4);
-            Jugador[ProximaPosicion, 2] = Convert.ToString(puntaje4);
-            ProximaPosicion++;
+            Jugador[0, 0] = j1;
+            Jugador[0, 1] = p1;
+            Jugador[1, 0] = j2;
+            Jugador[1, 1] = p2;
+            Jugador[2, 0] = j3;
+            Jugador[2, 1] = p3;
+            Jugador[3, 0] = j4;
+            Jugador[3, 1] = p4;
+            this.Jugador = ordenar(Jugador);
             return Jugador;
         }
-        public String Mostrar()
+        public string[,] ordenar (string[,] JugadorDestino)
         {
-            string Respuesta = "";
-            Respuesta += Jugador[0, 0] + Jugador[0, 1] + Jugador[0, 2] + "\r\n" + Jugador[1, 0] + Jugador[1, 1] + Jugador[1, 2] + "\r\n" + Jugador[2, 0] + Jugador[2, 1] + Jugador[2, 2] + "\r\n" + Jugador[3, 0] + Jugador[3, 1] + Jugador[3, 2];
-            return Respuesta;
+            string TempJugador = "";
+            string TempPuntage = "";
+            for (int i = 0; i < 5; i++)
+            {
+                for (int J = 0; J < 5; J++)
+                {
+                    if (String.Compare(JugadorDestino[i, 1], JugadorDestino[(i + 1), 1]) == 1) ;
+                    {
+                        TempJugador = JugadorDestino[i, 0];
+                        TempPuntage = JugadorDestino[i, 1];
+
+                        JugadorDestino[i, 0] = JugadorDestino[(i + 1), 0];
+                        JugadorDestino[i, 1] = JugadorDestino[(i + 1), 1];
+
+                        JugadorDestino[i, 0] = TempJugador;
+                        JugadorDestino[i, 1] = TempPuntage;
+
+
+                    }
+                }
+               
+            }
+            return JugadorDestino;
         }
         #endregion
 
