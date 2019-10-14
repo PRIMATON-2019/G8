@@ -94,7 +94,8 @@ namespace mindruner2
             if (J==3)
             {
                pepe = Jugadores.quiengana(label1.Text,label2.Text,label3.Text,label4.Text,label17.Text,label18.Text,label19.Text,label20.Text);
-                
+                //mostrando formulario con los ganadores...
+                Form Muestragnadores = new MuestraGanadores();
             }
 
 

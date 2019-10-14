@@ -191,6 +191,9 @@
     <EmbeddedResource Include="Historia.resx">
       <DependentUpon>Historia.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MuestraGanadores.resx">
+      <DependentUpon>MuestraGanadores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Musica.resx">
       <DependentUpon>Musica.cs</DependentUpon>
     </EmbeddedResource>
