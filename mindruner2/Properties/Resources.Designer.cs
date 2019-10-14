@@ -220,6 +220,17 @@ namespace mindruner2.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Exploration_focus_geography_map_Life_Close_up_Photo_HD_Wallpaper_1366x768__1___2_ {
+            get {
+                object obj = ResourceManager.GetObject("Exploration_focus_geography_map-Life_Close-up_Photo_HD_Wallpaper_1366x768 (1) (2)" +
+                        "", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream FGBS_37_ {
@@ -263,6 +274,16 @@ namespace mindruner2.Properties {
         internal static System.Drawing.Bitmap Ic6GZ7N {
             get {
                 object obj = ResourceManager.GetObject("Ic6GZ7N", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap koala {
+            get {
+                object obj = ResourceManager.GetObject("koala", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -350,9 +371,39 @@ namespace mindruner2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap menu {
+            get {
+                object obj = ResourceManager.GetObject("menu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mono {
+            get {
+                object obj = ResourceManager.GetObject("mono", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Naturaleza2 {
             get {
                 object obj = ResourceManager.GetObject("Naturaleza2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap perezozo {
+            get {
+                object obj = ResourceManager.GetObject("perezozo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -473,6 +524,16 @@ namespace mindruner2.Properties {
         internal static System.Drawing.Bitmap the_legend_of_zelda_link_wind_waker {
             get {
                 object obj = ResourceManager.GetObject("the-legend-of-zelda-link-wind-waker", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tigre {
+            get {
+                object obj = ResourceManager.GetObject("tigre", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

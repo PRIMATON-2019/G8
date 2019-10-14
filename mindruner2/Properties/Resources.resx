@@ -121,14 +121,23 @@
   <data name="8EC" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\8EC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="tigre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tigre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="BotonRespuestaFinalMejorado.fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BotonRespuestaFinalMejorado.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="y4sRZec" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\y4sRZec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="a9c3a807-3d7f-4a75-b1fa-120a3936719d" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\a9c3a807-3d7f-4a75-b1fa-120a3936719d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="perezozo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\perezozo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Boton_estilo_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Boton estilo 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,6 +184,9 @@
   <data name="REspuestaNaturaleza" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\REspuestaNaturaleza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="koala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\koala.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="boton_estilo_inicio1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\boton estilo inicio1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -214,8 +226,14 @@
   <data name="Boton_estilo_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Boton estilo 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="y4sRZec" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y4sRZec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ani" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\ani.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TuPuntajeSinFondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TuPuntajeSinFondo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Pregunta Para SIN FONDONATURALEZA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pregunta Para SIN FONDONATURALEZA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -250,7 +268,7 @@
   <data name="Boton_estilo_Inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Boton estilo Inicio.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TuPuntajeSinFondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TuPuntajeSinFondo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Exploration_focus_geography_map-Life_Close-up_Photo_HD_Wallpaper_1366x768 (1) (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Exploration_focus_geography_map-Life_Close-up_Photo_HD_Wallpaper_1366x768 (1) (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

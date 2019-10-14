@@ -361,5 +361,23 @@
   <ItemGroup>
     <None Include="Resources\TuPuntajeSinFondo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tigre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perezozo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\koala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exploration_focus_geography_map-Life_Close-up_Photo_HD_Wallpaper_1366x768 %281%29 %282%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
