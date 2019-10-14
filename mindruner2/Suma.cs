@@ -9,10 +9,10 @@ namespace mindruner2
     public class Suma
     {
 
-        public int contador1 = 0;
-        public int contador2 = 0;
-        public int contador3 = 0;
-        public int contador4 = 0;
+        public int contador1 ;
+        public int contador2 ;
+        public int contador3 ;
+        public int contador4 ;
 
 
         public int SumaPuntaje1()

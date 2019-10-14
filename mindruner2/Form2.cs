@@ -142,10 +142,10 @@ namespace mindruner2
             label2.Text = lbljugador2.Text;
             label3.Text = lbljugador3.Text;
             label4.Text = lbljugador4.Text;
-            label5.Text = Convert.ToString(d1.numero);
-            label6.Text = Convert.ToString(d2.numero);
-            label7.Text = Convert.ToString(d3.numero);
-            label12.Text = Convert.ToString(d4.numero);
+            label5.Text = Convert.ToString(d1.materia);
+            label6.Text = Convert.ToString(d2.materia);
+            label7.Text = Convert.ToString(d3.materia);
+            label12.Text = Convert.ToString(d4.materia);
             label8.Text = d1.tema;
             label11.Text = d2.tema;
             label10.Text = d3.tema;
