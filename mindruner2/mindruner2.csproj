@@ -379,5 +379,8 @@
   <ItemGroup>
     <None Include="Resources\Exploration_focus_geography_map-Life_Close-up_Photo_HD_Wallpaper_1366x768 %281%29 %282%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumb2-filmoscope-4k-retro-smoke-cinema %281%29 %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

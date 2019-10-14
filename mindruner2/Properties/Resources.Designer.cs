@@ -531,6 +531,16 @@ namespace mindruner2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap thumb2_filmoscope_4k_retro_smoke_cinema__1___1_ {
+            get {
+                object obj = ResourceManager.GetObject("thumb2-filmoscope-4k-retro-smoke-cinema (1) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap tigre {
             get {
                 object obj = ResourceManager.GetObject("tigre", resourceCulture);

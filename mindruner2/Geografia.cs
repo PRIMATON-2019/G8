@@ -59,54 +59,50 @@ namespace mindruner2
 
             if (radioButton1.Checked == true)
             {
-                if (radioButton1.Checked == true)
+                if (ValorRespuesta == 1)
                 {
-                    if (ValorRespuesta == 1)
-                    {
-                        MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
-                        btnok.Visible = true;
+                    MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
+                    btnok.Visible = true;
 
 
-                    }
-                    else
-                    {
-                        MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
-                        this.Close();
-
-
-                    }
                 }
-                if (radioButton2.Checked == true)
+                else
                 {
-                    if (ValorRespuesta == 2)
-                    {
-                        MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
-                        btnok.Visible = true;
+                    MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
+                    this.Close();
 
-                    }
-                    else
-                    {
-                        MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
-                        this.Close();
-                    }
+
                 }
-                if (radioButton3.Checked == true)
+            }
+            if (radioButton2.Checked == true)
+            {
+                if (ValorRespuesta == 2)
                 {
-                    if (ValorRespuesta == 3)
-                    {
-                        MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
-                        btnok.Visible = true;
+                    MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
+                    btnok.Visible = true;
 
-                    }
-                    else
-                    {
-                        MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
-                        this.Close();
-                    }
+                }
+                else
+                {
+                    MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
+                    this.Close();
+                }
+            }
+            if (radioButton3.Checked == true)
+            {
+                if (ValorRespuesta == 3)
+                {
+                    MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
+                    btnok.Visible = true;
+
+                }
+                else
+                {
+                    MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
+                    this.Close();
                 }
             }
         }
-
         private void Btnok_Click(object sender, EventArgs e)
         {
             this.Close();
