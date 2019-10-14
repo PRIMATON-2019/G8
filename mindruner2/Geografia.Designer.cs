@@ -87,11 +87,11 @@
             // btnpregunta
             // 
             this.btnpregunta.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnpregunta.Font = new System.Drawing.Font("Bradley Hand ITC", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnpregunta.Font = new System.Drawing.Font("Bradley Hand ITC", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnpregunta.ForeColor = System.Drawing.Color.Black;
-            this.btnpregunta.Location = new System.Drawing.Point(468, 93);
+            this.btnpregunta.Location = new System.Drawing.Point(459, 94);
             this.btnpregunta.Name = "btnpregunta";
-            this.btnpregunta.Size = new System.Drawing.Size(145, 34);
+            this.btnpregunta.Size = new System.Drawing.Size(155, 34);
             this.btnpregunta.TabIndex = 14;
             this.btnpregunta.Text = "PREGUNTAR";
             this.btnpregunta.UseVisualStyleBackColor = false;
@@ -102,21 +102,21 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label2.Font = new System.Drawing.Font("Bradley Hand ITC", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Bradley Hand ITC", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(468, 38);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(2, 52);
+            this.label2.Size = new System.Drawing.Size(2, 37);
             this.label2.TabIndex = 11;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Font = new System.Drawing.Font("Bradley Hand ITC", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Bradley Hand ITC", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(632, 357);
+            this.button1.Location = new System.Drawing.Point(626, 357);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(142, 35);
+            this.button1.Size = new System.Drawing.Size(148, 35);
             this.button1.TabIndex = 20;
             this.button1.Text = "RESPUESTA";
             this.button1.UseVisualStyleBackColor = false;
@@ -156,10 +156,10 @@
             // 
             this.btnok.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnok.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnok.Font = new System.Drawing.Font("Bradley Hand ITC", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnok.Location = new System.Drawing.Point(632, 398);
+            this.btnok.Font = new System.Drawing.Font("Bradley Hand ITC", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnok.Location = new System.Drawing.Point(626, 398);
             this.btnok.Name = "btnok";
-            this.btnok.Size = new System.Drawing.Size(142, 35);
+            this.btnok.Size = new System.Drawing.Size(148, 35);
             this.btnok.TabIndex = 49;
             this.btnok.Text = "CONTINUAR";
             this.btnok.UseVisualStyleBackColor = false;

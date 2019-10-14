@@ -17,28 +17,28 @@ namespace mindruner2
             InitializeComponent();
             label10.Text = info.Nombre;
             label5.Text = info.Tema;
-            label1.Text = info.Njugador;
+           // label1.Text = info.Njugador;
         }
         public Naturaleza(Form2.Datos2 info)
         {
             InitializeComponent();
             label10.Text = info.Nombre;
             label5.Text = info.Tema;
-            label1.Text = info.Njugador;
+           // label1.Text = info.Njugador;
         }
         public Naturaleza(Form2.Datos3 info)
         {
             InitializeComponent();
             label10.Text = info.Nombre;
             label5.Text = info.Tema;
-            label1.Text = info.Njugador;
+           // label1.Text = info.Njugador;
         }
         public Naturaleza(Form2.Datos4 info)
         {
             InitializeComponent();
             label10.Text = info.Nombre;
             label5.Text = info.Tema;
-            label1.Text = info.Njugador;
+           // label1.Text = info.Njugador;
         }
         preguntasnaturaleza BuscarPregunta = new preguntasnaturaleza();
         int ValorRespuesta = 0;
@@ -59,8 +59,7 @@ namespace mindruner2
                 else
                 {
                     MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
-                    btncancel.Visible = true;
-
+                    this.Close();
 
                 }
             }
@@ -75,7 +74,7 @@ namespace mindruner2
                 else
                 {
                     MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
-                    btncancel.Visible = true;
+                    this.Close();
                 }
             }
             if (radioButton3.Checked == true)
@@ -84,12 +83,13 @@ namespace mindruner2
                 {
                     MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
                     btnok.Visible = true;
+                    
 
                 }
                 else
                 {
                     MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
-                    btncancel.Visible = true;
+                    this.Close();
 
                 }
             }

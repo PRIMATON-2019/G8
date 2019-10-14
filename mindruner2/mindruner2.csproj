@@ -382,5 +382,17 @@
   <ItemGroup>
     <None Include="Resources\thumb2-filmoscope-4k-retro-smoke-cinema %281%29 %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\55456408-assorted-sports-equipment-and-grass %281%29 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\46afcca703ca41bc596213de156a4d3f-700 %281%29 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault1 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mdbmq77 %282%29 %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

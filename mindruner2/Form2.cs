@@ -83,13 +83,15 @@ namespace mindruner2
         }
         Lista Jugadores = new Lista();
         Suma contador = new Suma();
+        int J = 1;
 
 
         private void Button1_Click(object sender, EventArgs e)
         {
+            
+            MessageBox.Show("RONDA N." + Convert.ToString(J));
+            J++;
             btnlanzar.Enabled = false;
-
-
             button1.Enabled = true;
             button2.Enabled = false;
             button3.Enabled = false;
@@ -306,7 +308,7 @@ namespace mindruner2
 
 
             {
-                    switch (d1.numero)
+                   switch (d1.numero)
                     {
                         case 1:
                             Form historia = new Historia(Info1);

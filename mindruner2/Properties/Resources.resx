@@ -127,11 +127,17 @@
   <data name="BotonRespuestaFinalMejorado.fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BotonRespuestaFinalMejorado.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="config_minimos_Arturo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\config_minimos_Arturo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="a9c3a807-3d7f-4a75-b1fa-120a3936719d" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\a9c3a807-3d7f-4a75-b1fa-120a3936719d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lado3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\lado3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="snoppy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>snoppy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,11 +163,11 @@
   <data name="ani" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\ani.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="55456408-assorted-sports-equipment-and-grass (1) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\55456408-assorted-sports-equipment-and-grass (1) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Pregunta Para Sin Fondo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pregunta Para Sin Fondo.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Chrono_Cross_Opening_HD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Sound\Chrono Cross Opening HD.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Final_fantasy_xi_ost_rulude_gardens__Inicio_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Sound\Final_fantasy_xi_ost_rulude_gardens (Inicio).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -202,9 +208,6 @@
   <data name="Pregunta Para Sin Fondo.fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pregunta Para Sin Fondo.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Boton_estilo_Inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Boton estilo Inicio.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="mario" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mario.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -241,8 +244,8 @@
   <data name="Pregunta Para SIN FONDONATURALEZA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pregunta Para SIN FONDONATURALEZA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ic6GZ7N" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ic6GZ7N.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Chrono_Cross_Opening_HD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sound\Chrono Cross Opening HD.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lado1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\lado1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -259,19 +262,28 @@
   <data name="TEMANATURALEZA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TEMANATURALEZA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lado4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\lado4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="thumb2-filmoscope-4k-retro-smoke-cinema (1) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thumb2-filmoscope-4k-retro-smoke-cinema (1) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="config_minimos_Arturo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\config_minimos_Arturo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="maxresdefault1 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maxresdefault1 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="libros_antiguos_macro_20150408_1344617272" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\libros_antiguos_macro_20150408_1344617272.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lado3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\lado3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lado4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\lado4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="thumb2-filmoscope-4k-retro-smoke-cinema (1) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\thumb2-filmoscope-4k-retro-smoke-cinema (1) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ic6GZ7N" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ic6GZ7N.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="46afcca703ca41bc596213de156a4d3f-700 (1) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\46afcca703ca41bc596213de156a4d3f-700 (1) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Boton_estilo_Inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Boton estilo Inicio.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mdbmq77 (2) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mdbmq77 (2) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

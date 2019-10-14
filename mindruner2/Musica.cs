@@ -17,28 +17,28 @@ namespace mindruner2
             InitializeComponent();
             label2.Text = info.Nombre;
             label5.Text = info.Tema;
-            label10.Text = info.Njugador;
+            //label10.Text = info.Njugador;
         }
         public Musica(Form2.Datos2 info)
         {
             InitializeComponent();
             label2.Text = info.Nombre;
             label5.Text = info.Tema;
-            label10.Text = info.Njugador;
+            //label10.Text = info.Njugador;
         }
         public Musica(Form2.Datos3 info)
         {
             InitializeComponent();
             label2.Text = info.Nombre;
             label5.Text = info.Tema;
-            label10.Text = info.Njugador;
+            //label10.Text = info.Njugador;
         }
         public Musica(Form2.Datos4 info)
         {
             InitializeComponent();
             label2.Text = info.Nombre;
             label5.Text = info.Tema;
-            label10.Text = info.Njugador;
+            //label10.Text = info.Njugador;
         }
         Preguntasmusica BuscarPregunta = new Preguntasmusica();
         int ValorRespuesta = 0;
@@ -71,16 +71,13 @@ namespace mindruner2
                 if (ValorRespuesta == 1)
                 {
                     MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
-                    button1.DialogResult = DialogResult.OK;
-                    this.Close();
+                    btnok.Visible = true;
+
 
                 }
                 else
                 {
                     MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
-                    label11.Text = contador.VisualizarPuntaje1();
-
-                    MessageBox.Show("te puntage es de" + (label11.Text));
                     this.Close();
 
                 }
@@ -90,16 +87,13 @@ namespace mindruner2
                 if (ValorRespuesta == 2)
                 {
                     MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
-                    button1.DialogResult = DialogResult.OK;
-                    this.Close();
+                    btnok.Visible = true;
+
                 }
                 else
                 {
                     MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
-                    label11.Text = contador.VisualizarPuntaje1();
-
-                    MessageBox.Show("te puntage es de" + (label11.Text));
-                    this.Hide();
+                    this.Close();
                 }
             }
             if (radioButton3.Checked == true)
@@ -107,16 +101,14 @@ namespace mindruner2
                 if (ValorRespuesta == 3)
                 {
                     MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
-                    button1.DialogResult = DialogResult.OK;
-                    this.Close();
+                    btnok.Visible = true;
+
                 }
                 else
                 {
                     MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
-                    label11.Text = contador.VisualizarPuntaje1();
+                    this.Close();
 
-                    MessageBox.Show("te puntage es de" + (label11.Text));
-                    this.Hide();
                 }
             }
 

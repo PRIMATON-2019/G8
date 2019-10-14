@@ -23,28 +23,28 @@ namespace mindruner2
             InitializeComponent();
             label2.Text = info.Nombre;
             label5.Text = info.Tema;
-            label10.Text = info.Njugador;
+            //label10.Text = info.Njugador;
         }
         public Historia(Form2.Datos2 info)
         {
             InitializeComponent();
             label2.Text = info.Nombre;
             label5.Text = info.Tema;
-            label10.Text = info.Njugador;
+            //label10.Text = info.Njugador;
         }
         public Historia(Form2.Datos3 info)
         {
             InitializeComponent();
             label2.Text = info.Nombre;
             label5.Text = info.Tema;
-            label10.Text = info.Njugador;
+           // label10.Text = info.Njugador;
         }
         public Historia(Form2.Datos4 info)
         {
             InitializeComponent();
             label2.Text = info.Nombre;
             label5.Text = info.Tema;
-            label10.Text = info.Njugador;
+           // label10.Text = info.Njugador;
         }
 
         preguntados BuscarPregunta = new preguntados();
@@ -81,7 +81,7 @@ namespace mindruner2
                 else
                 {
                     MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
-                    btncancel.Visible = true;
+                    this.Close();
 
 
                 }
@@ -97,7 +97,7 @@ namespace mindruner2
                 else
                 {
                     MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
-                    btncancel.Visible = true;
+                    this.Close();
                 }
             }
             if (radioButton3.Checked == true)
@@ -111,7 +111,7 @@ namespace mindruner2
                 else
                 {
                     MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
-                    btncancel.Visible = true;
+                    this.Close();
 
                 }
             }

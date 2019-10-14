@@ -83,6 +83,26 @@ namespace mindruner2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _46afcca703ca41bc596213de156a4d3f_700__1___1_ {
+            get {
+                object obj = ResourceManager.GetObject("46afcca703ca41bc596213de156a4d3f-700 (1) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _55456408_assorted_sports_equipment_and_grass__1___1_ {
+            get {
+                object obj = ResourceManager.GetObject("55456408-assorted-sports-equipment-and-grass (1) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _8EC {
             get {
                 object obj = ResourceManager.GetObject("8EC", resourceCulture);
@@ -364,6 +384,26 @@ namespace mindruner2.Properties {
         internal static System.Drawing.Bitmap mario {
             get {
                 object obj = ResourceManager.GetObject("mario", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap maxresdefault1__1_ {
+            get {
+                object obj = ResourceManager.GetObject("maxresdefault1 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mdbmq77__2___1_ {
+            get {
+                object obj = ResourceManager.GetObject("mdbmq77 (2) (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

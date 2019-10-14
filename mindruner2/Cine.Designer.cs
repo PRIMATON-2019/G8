@@ -39,6 +39,7 @@
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.button1 = new System.Windows.Forms.Button();
             this.btnok = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label9
@@ -173,6 +174,15 @@
             this.btnok.Visible = false;
             this.btnok.Click += new System.EventHandler(this.Button2_Click);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label5.Location = new System.Drawing.Point(18, 23);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(0, 20);
+            this.label5.TabIndex = 50;
+            // 
             // Cine
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -180,6 +190,7 @@
             this.BackgroundImage = global::mindruner2.Properties.Resources.thumb2_filmoscope_4k_retro_smoke_cinema__1___1_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 449);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.btnok);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.radioButton3);
@@ -215,5 +226,6 @@
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnok;
+        private System.Windows.Forms.Label label5;
     }
 }
