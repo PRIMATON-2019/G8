@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace mindruner2
 {
@@ -32,8 +33,10 @@ namespace mindruner2
             string TempPuntage = "";
             for (int i = 0; i < 5; i++)
             {
+               
                 for (int J = 0; J < 5; J++)
                 {
+                   
                     if (String.Compare(JugadorDestino[i, 1], JugadorDestino[(i + 1), 1]) == 1) ;
                     {
                         TempJugador = JugadorDestino[i, 0];
@@ -45,10 +48,22 @@ namespace mindruner2
                         JugadorDestino[i, 0] = TempJugador;
                         JugadorDestino[i, 1] = TempPuntage;
 
+                       
+                    }
+
+                   /* condicion para mostrar el formulario de ganadores
+                     if (i == 4)
+                    {
+
+                        Form muestraganadores = new MuestraGanadores();
+                        muestraganadores.Show();
+
 
                     }
+                    */
+
                 }
-               
+
             }
             return JugadorDestino;
         }

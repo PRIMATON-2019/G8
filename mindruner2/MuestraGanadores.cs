@@ -15,10 +15,13 @@ namespace mindruner2
         public MuestraGanadores()
         {
             InitializeComponent();
-            
+
+
+           
+
+           
+
         }
 
-        
-      
     }
 }
