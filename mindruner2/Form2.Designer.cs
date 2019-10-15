@@ -61,6 +61,7 @@
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
+            this.Volver = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -72,7 +73,7 @@
             this.btnlanzar.BackColor = System.Drawing.Color.Black;
             this.btnlanzar.Font = new System.Drawing.Font("Comic Sans MS", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlanzar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnlanzar.Location = new System.Drawing.Point(23, 356);
+            this.btnlanzar.Location = new System.Drawing.Point(24, 327);
             this.btnlanzar.Name = "btnlanzar";
             this.btnlanzar.Size = new System.Drawing.Size(115, 61);
             this.btnlanzar.TabIndex = 3;
@@ -414,9 +415,9 @@
             this.label16.Location = new System.Drawing.Point(463, 303);
             this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(82, 17);
+            this.label16.Size = new System.Drawing.Size(78, 17);
             this.label16.TabIndex = 31;
-            this.label16.Text = "PUNTAGE";
+            this.label16.Text = "PUNTAJE";
             // 
             // label17
             // 
@@ -466,6 +467,19 @@
             this.label20.TabIndex = 35;
             this.label20.Text = "*";
             // 
+            // Volver
+            // 
+            this.Volver.BackColor = System.Drawing.Color.Black;
+            this.Volver.Font = new System.Drawing.Font("Comic Sans MS", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Volver.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Volver.Location = new System.Drawing.Point(24, 396);
+            this.Volver.Name = "Volver";
+            this.Volver.Size = new System.Drawing.Size(115, 61);
+            this.Volver.TabIndex = 36;
+            this.Volver.Text = "VOLVER";
+            this.Volver.UseVisualStyleBackColor = false;
+            this.Volver.Click += new System.EventHandler(this.Volver_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -474,6 +488,7 @@
             this.BackgroundImage = global::mindruner2.Properties.Resources.Dados;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(781, 478);
+            this.Controls.Add(this.Volver);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
@@ -553,5 +568,6 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Button Volver;
     }
 }

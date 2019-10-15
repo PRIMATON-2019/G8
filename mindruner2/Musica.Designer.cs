@@ -112,7 +112,7 @@
             this.btnpregunta.Font = new System.Drawing.Font("Bradley Hand ITC", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnpregunta.ForeColor = System.Drawing.Color.Black;
             this.btnpregunta.Location = new System.Drawing.Point(319, 61);
-            this.btnpregunta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnpregunta.Margin = new System.Windows.Forms.Padding(2);
             this.btnpregunta.Name = "btnpregunta";
             this.btnpregunta.Size = new System.Drawing.Size(111, 23);
             this.btnpregunta.TabIndex = 52;
@@ -142,7 +142,7 @@
             this.button1.Font = new System.Drawing.Font("Bradley Hand ITC", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(407, 227);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(115, 26);
             this.button1.TabIndex = 53;
@@ -154,33 +154,30 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(302, 29);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(14, 13);
             this.radioButton1.TabIndex = 41;
-            this.radioButton1.TabStop = true;
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(379, 135);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(14, 13);
             this.radioButton2.TabIndex = 42;
-            this.radioButton2.TabStop = true;
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.Location = new System.Drawing.Point(319, 240);
-            this.radioButton3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(14, 13);
             this.radioButton3.TabIndex = 43;
-            this.radioButton3.TabStop = true;
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // btnok
@@ -189,7 +186,7 @@
             this.btnok.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnok.Font = new System.Drawing.Font("Bradley Hand ITC", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnok.Location = new System.Drawing.Point(407, 257);
-            this.btnok.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnok.Margin = new System.Windows.Forms.Padding(2);
             this.btnok.Name = "btnok";
             this.btnok.Size = new System.Drawing.Size(115, 26);
             this.btnok.TabIndex = 54;
@@ -218,7 +215,7 @@
             this.Controls.Add(this.btnpregunta);
             this.Controls.Add(this.label2);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Musica";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Musica";

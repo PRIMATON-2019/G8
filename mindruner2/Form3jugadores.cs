@@ -18,7 +18,7 @@ namespace mindruner2
             InitializeComponent();
         }
 
-        Form1 Obj = new Form1();
+        Form1 Inicio = new Form1();
         public struct Datos
         {
             public string Nombre1;
@@ -41,22 +41,37 @@ namespace mindruner2
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            Datos Info;
 
-            Info.Nombre1 = txt1.Text;
-            Info.Nombre2 = txt2.Text;
-            Info.Nombre3 = txt3.Text;
-            Info.Nombre4 = txt4.Text;
-            this.Hide();
-            Form2 obj = new Form2(Info);
-            obj.ShowDialog();
-           
+            //MessageBox.Show("Usuario 1:" + txt1.Text + "Usuario 2:" + txt2.Text + "Usuario 3:" + txt3.Text + "Usuario 4:" + txt4.Text);
+
+            if (txt1.Text + txt2.Text + txt3.Text + txt4.Text == "")
+            {
+                MessageBox.Show("Por Favor Introduzca nombre en algunos casilleros");
+            }
+            else
+            {
+                Datos Info;
+                Info.Nombre1 = txt1.Text;
+                Info.Nombre2 = txt2.Text;
+                Info.Nombre3 = txt3.Text;
+                Info.Nombre4 = txt4.Text;
+                this.Hide();
+                Form2 obj = new Form2(Info);
+                obj.ShowDialog();
+            }
+
+            
+
+
+
 
             //Jugadores.Carga(txt1.Text, txt2.Text, txt3.Text, txt4.Text);
             //lbl6.Text = Jugadores.Mostrar();
 
 
         }
+
+
 
         private void Form3jugadores_Load(object sender, EventArgs e)
         {
@@ -65,15 +80,67 @@ namespace mindruner2
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            
-           
-
+     
             this.Close();
-            
-            //Obj.Show();
+            Inicio.Show();
 
-            
-            
+        }
+
+        private void Txt1_Validated(object sender, EventArgs e)
+        {
+            //if (txt1.Text.Trim() == "" )
+    //        {
+              //  epError.SetError(txt1, "Ingrese Nonbre");
+                //txt1.Focus();
+
+  //          }
+//            else
+      //      {
+        //        epError.Clear();
+          //  }
+
+        }
+
+        private void Txt2_Validated(object sender, EventArgs e)
+        {
+//            if (txt2.Text.Trim() == "")
+      //      {
+  //              epError.SetError(txt2, "Ingrese Nonbre");
+                //txt2.Focus();
+
+    //        }
+        //    else
+          //  {
+              //  epError.Clear();
+            //}
+        }
+
+        private void Txt3_Validated(object sender, EventArgs e)
+        {
+          //  if (txt3.Text.Trim() == "")
+            //{
+              //  epError.SetError(txt3, "Ingrese Nonbre");
+                //txt3.Focus();
+
+            //}
+            //else
+            //{
+              //  epError.Clear();
+            //}
+        }
+
+        private void Txt4_Validated(object sender, EventArgs e)
+        {
+            //if (txt4.Text.Trim() == "")
+            //{
+              //  epError.SetError(txt4, "Ingrese Nombre");
+                //txt4.Focus();
+
+            //}
+            //else
+            //{
+              //  epError.Clear();
+            //}
         }
     }
 }

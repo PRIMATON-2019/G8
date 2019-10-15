@@ -96,10 +96,13 @@ namespace mindruner2
         {
             
            
-            if (J==3)
+            if (J==4)
             {
-                MessageBox.Show("YA HAN COMPLETADO LAS "+Convert.ToString(J)+"...RONDAS");
-                 Pepe = Jugadores.quiengana(label1.Text,label2.Text,label3.Text,label4.Text,label17.Text,label18.Text,label19.Text,label20.Text);
+                
+
+                MessageBox.Show("YA SE HAN COMPLETADO LAS "+Convert.ToString(J-1)+" RONDAS");
+                this.Hide();
+                Pepe = Jugadores.quiengana(label1.Text,label2.Text,label3.Text,label4.Text,label17.Text,label18.Text,label19.Text,label20.Text);
                 DatosMatriz Info;
 
                 Info.MatrizEnvio=Pepe;
@@ -111,7 +114,7 @@ namespace mindruner2
 
             else
             {
-                MessageBox.Show("RONDA N." + Convert.ToString(J));
+                MessageBox.Show("RONDA N°"+ Convert.ToString(J));
                 J++;
                 btnlanzar.Enabled = false;
                 button1.Enabled = true;
@@ -612,7 +615,14 @@ namespace mindruner2
 
         }
 
-        
+        private void Volver_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
+            Form3jugadores Jugadores = new Form3jugadores();
+            Jugadores.Show();
+
+        }
     }
                        
 }
