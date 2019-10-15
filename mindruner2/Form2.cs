@@ -98,7 +98,7 @@ namespace mindruner2
            
             if (J==3)
             {
-                MessageBox.Show("YA HAM COMPLETADO LAS "+Convert.ToString(J)+"RONDAS");
+                MessageBox.Show("YA HAN COMPLETADO LAS "+Convert.ToString(J)+"...RONDAS");
                  Pepe = Jugadores.quiengana(label1.Text,label2.Text,label3.Text,label4.Text,label17.Text,label18.Text,label19.Text,label20.Text);
                 DatosMatriz Info;
 
