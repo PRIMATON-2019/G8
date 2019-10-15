@@ -9,8 +9,12 @@ namespace mindruner2
 {
     public class Lista
     {
+        
         #region Propiedades 
         public string[,] Jugador = new string[4, 2];
+        
+
+      
 
 
         #region Metodos
@@ -31,36 +35,35 @@ namespace mindruner2
         {
             string TempJugador = "";
             string TempPuntage = "";
-            for (int i = 0; i < 5; i++)
+            for (int j = 0; j < JugadorDestino.Length-1; j++)
             {
                
-                for (int J = 0; J < 5; J++)
+                for (int i = 0; i < JugadorDestino.Length-1; i++)
                 {
+                    try
+                    {
+                        if (String.Compare(JugadorDestino[i, 1], JugadorDestino[(i + 1), 1]) == 1)
+                        {
+                            TempJugador = JugadorDestino[i, 0];
+                            TempPuntage = JugadorDestino[i, 1];
+
+                            JugadorDestino[i, 0] = JugadorDestino[(i + 1), 0];
+                            JugadorDestino[i, 1] = JugadorDestino[(i + 1), 1];
+
+                            JugadorDestino[(i + 1), 0] = TempJugador;
+                            JugadorDestino[(i + 1), 1] = TempPuntage;
+
+
+                        }
+                    }
+                    catch (IndexOutOfRangeException)
+                    {
+                        Console.WriteLine("Finalizo la revision de la lista");
+                    }
+
                    
-                    if (String.Compare(JugadorDestino[i, 1], JugadorDestino[(i + 1), 1]) == 1) ;
-                    {
-                        TempJugador = JugadorDestino[i, 0];
-                        TempPuntage = JugadorDestino[i, 1];
 
-                        JugadorDestino[i, 0] = JugadorDestino[(i + 1), 0];
-                        JugadorDestino[i, 1] = JugadorDestino[(i + 1), 1];
-
-                        JugadorDestino[i, 0] = TempJugador;
-                        JugadorDestino[i, 1] = TempPuntage;
-
-                       
-                    }
-
-                   /* condicion para mostrar el formulario de ganadores
-                     if (i == 4)
-                    {
-
-                        Form muestraganadores = new MuestraGanadores();
-                        muestraganadores.Show();
-
-
-                    }
-                    */
+                  
 
                 }
 

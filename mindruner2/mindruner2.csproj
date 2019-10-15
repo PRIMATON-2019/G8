@@ -403,5 +403,8 @@
   <ItemGroup>
     <None Include="Resources\mdbmq77 %282%29 %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20986.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

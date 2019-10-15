@@ -22,6 +22,29 @@ namespace mindruner2
            
 
         }
+        public MuestraGanadores(Form2.DatosMatriz info)
 
+        {
+            InitializeComponent();
+            label1.Text = info.MatrizEnvio[0, 0];
+            label2.Text = info.MatrizEnvio[1, 0];
+            label3.Text = info.MatrizEnvio[2, 0];
+            label4.Text = info.MatrizEnvio[3, 0];
+            label5.Text = info.MatrizEnvio[0, 1];
+            label6.Text = info.MatrizEnvio[1, 1];
+            label7.Text = info.MatrizEnvio[2, 1];
+            label8.Text = info.MatrizEnvio[3, 1];
+
+        }
+
+        private void Label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

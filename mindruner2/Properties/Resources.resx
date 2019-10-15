@@ -127,20 +127,14 @@
   <data name="BotonRespuestaFinalMejorado.fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BotonRespuestaFinalMejorado.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="config_minimos_Arturo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\config_minimos_Arturo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="a9c3a807-3d7f-4a75-b1fa-120a3936719d" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\a9c3a807-3d7f-4a75-b1fa-120a3936719d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lado3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\lado3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="snoppy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>snoppy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="perezozo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\perezozo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,14 +154,17 @@
   <data name="geografia" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\geografia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ani" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\ani.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="46afcca703ca41bc596213de156a4d3f-700 (1) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\46afcca703ca41bc596213de156a4d3f-700 (1) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="55456408-assorted-sports-equipment-and-grass (1) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\55456408-assorted-sports-equipment-and-grass (1) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Artwork_Peach_(NSMBUD)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artwork_Peach_(NSMBUD).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Pregunta Para Sin Fondo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pregunta Para Sin Fondo.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mario.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Final_fantasy_xi_ost_rulude_gardens__Inicio_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Sound\Final_fantasy_xi_ost_rulude_gardens (Inicio).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -177,6 +174,9 @@
   </data>
   <data name="TePuntajeNaturaleza" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TePuntajeNaturaleza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ic6GZ7N" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ic6GZ7N.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Garfield" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\Garfield.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,11 +208,14 @@
   <data name="Pregunta Para Sin Fondo.fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pregunta Para Sin Fondo.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mario" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mario.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="lado5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\lado5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="55456408-assorted-sports-equipment-and-grass (1) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\55456408-assorted-sports-equipment-and-grass (1) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lado3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\lado3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TSR_Sonic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TSR_Sonic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,8 +223,8 @@
   <data name="Exploration_focus_geography_map-Life_Close-up_Photo_HD_Wallpaper_1366x768 (1) (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Exploration_focus_geography_map-Life_Close-up_Photo_HD_Wallpaper_1366x768 (1) (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Artwork_Peach_(NSMBUD)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Artwork_Peach_(NSMBUD).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="snoppy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>snoppy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PreguntaNaturaleza" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PreguntaNaturaleza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -235,8 +238,8 @@
   <data name="y4sRZec" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\y4sRZec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="perezozo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\perezozo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ani" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\ani.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TuPuntajeSinFondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TuPuntajeSinFondo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -249,6 +252,9 @@
   </data>
   <data name="lado1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\lado1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mdbmq77 (2) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mdbmq77 (2) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BotonMejoradoPregunta.fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BotonMejoradoPregunta.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -268,22 +274,19 @@
   <data name="maxresdefault1 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\maxresdefault1 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="libros_antiguos_macro_20150408_1344617272" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\libros_antiguos_macro_20150408_1344617272.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="lado4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\lado4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ic6GZ7N" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ic6GZ7N.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="config_minimos_Arturo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\config_minimos_Arturo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="46afcca703ca41bc596213de156a4d3f-700 (1) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\46afcca703ca41bc596213de156a4d3f-700 (1) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="libros_antiguos_macro_20150408_1344617272" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\libros_antiguos_macro_20150408_1344617272.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Boton_estilo_Inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Boton estilo Inicio.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mdbmq77 (2) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mdbmq77 (2) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="20986" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20986.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

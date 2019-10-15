@@ -16,7 +16,7 @@ namespace mindruner2
 
 
 
-        string[,] pepe = new string[4,2];
+        string[,] Pepe = new string[4,2];
         Lista Jugadores = new Lista();
         dado d1 = new dado();
         dado d2 = new dado();
@@ -82,7 +82,12 @@ namespace mindruner2
             public string Npregunta;
             public string Njugador;
         }
-        
+        public struct DatosMatriz
+        {
+            public string[,] MatrizEnvio;            
+
+        }
+
         Suma contador = new Suma();
         int J = 1;
 
@@ -91,10 +96,16 @@ namespace mindruner2
         {
             
            
-            if (J==4)
+            if (J==3)
             {
-                 pepe = Jugadores.quiengana(label1.Text,label2.Text,label3.Text,label4.Text,label17.Text,label18.Text,label19.Text,label20.Text);
-               
+                 Pepe = Jugadores.quiengana(label1.Text,label2.Text,label3.Text,label4.Text,label17.Text,label18.Text,label19.Text,label20.Text);
+                DatosMatriz Info;
+
+                Info.MatrizEnvio=Pepe;
+                this.Hide();
+                MuestraGanadores obj1 = new MuestraGanadores(Info);
+                obj1.ShowDialog();
+
             }
 
             else

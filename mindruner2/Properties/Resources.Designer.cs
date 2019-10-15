@@ -63,6 +63,16 @@ namespace mindruner2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _20986 {
+            get {
+                object obj = ResourceManager.GetObject("20986", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _3181290_640px {
             get {
                 object obj = ResourceManager.GetObject("3181290_640px", resourceCulture);
