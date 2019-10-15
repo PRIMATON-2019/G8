@@ -609,10 +609,14 @@ namespace mindruner2
                         label20.Text = Convert.ToString(cont4);
                     }
                     break;
+                    
 
                    
             }
-
+            pictureBox1.Image = mindruner2.Properties.Resources.ani;
+            pictureBox2.Image = mindruner2.Properties.Resources.ani;
+            pictureBox3.Image = mindruner2.Properties.Resources.ani;
+            pictureBox4.Image = mindruner2.Properties.Resources.ani;
         }
 
         private void Volver_Click(object sender, EventArgs e)

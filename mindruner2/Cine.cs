@@ -58,6 +58,8 @@ namespace mindruner2
 
         private void Button1_Click(object sender, EventArgs e)
         {
+            button1.Enabled = false;
+
             if (radioButton1.Checked == true)
             {
                 if (ValorRespuesta == 1)
