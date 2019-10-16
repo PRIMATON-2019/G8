@@ -117,10 +117,22 @@ namespace mindruner2
                 MessageBox.Show("RONDA N°"+ Convert.ToString(J));
                 J++;
                 btnlanzar.Enabled = false;
-                button1.Enabled = true;
-                button2.Enabled = false;
-                button3.Enabled = false;
-                button4.Enabled = false;
+
+                button1.Visible = true;
+                button2.Visible = false;
+                button3.Visible = false;
+                button4.Visible = false;
+
+
+
+
+                //button1.Enabled = true;
+                //button2.Enabled = false;
+                //button3.Enabled = false;
+                //button4.Enabled = false;
+                
+                
+                
                 //Jugadores.Carga(lbljugador1.Text, lbljugador2.Text, lbljugador3.Text, lbljugador4.Text);
 
                 d1.lanzar();
@@ -329,10 +341,17 @@ namespace mindruner2
             Info1.Tema = label12.Text;
             Info1.Npregunta = label8.Text;
             Info1.Njugador = "1";
-            button1.Enabled = false;
-            button2.Enabled = true;
-            button3.Enabled = false;
-            button4.Enabled = false;
+
+
+            button1.Visible = false;
+            button2.Visible = true;
+            button3.Visible = false;
+            button4.Visible = false;
+
+            //button1.Enabled = false;
+            //button2.Enabled = true;
+            //button3.Enabled = false;
+            //button4.Enabled = false;
 
 
             {
@@ -412,10 +431,19 @@ namespace mindruner2
             Info2.Tema = label7.Text;
             Info2.Npregunta = label11.Text;
             Info2.Njugador = "2";
-            button1.Enabled = false;
-            button2.Enabled = false;
-            button3.Enabled = true;
-            button4.Enabled = false;
+
+
+            button1.Visible = false;
+            button2.Visible = false;
+            button3.Visible = true;
+            button4.Visible = false;
+
+
+
+            //button1.Enabled = false;
+            //button2.Enabled = false;
+            //button3.Enabled = true;
+            //button4.Enabled = false;
             switch (d2.numero)
             {
                 case 1:
@@ -480,10 +508,19 @@ namespace mindruner2
             Info3.Tema = label6.Text;
             Info3.Npregunta = label10.Text;
             Info3.Njugador = "3";
-            button1.Enabled = false;
-            button2.Enabled = false;
-            button3.Enabled = false;
-            button4.Enabled = true;
+
+
+
+            button1.Visible = false;
+            button2.Visible = false;
+            button3.Visible = false;
+            button4.Visible = true;
+
+
+            //button1.Enabled = false;
+            //button2.Enabled = false;
+            //button3.Enabled = false;
+            //button4.Enabled = true;
 
 
             switch (d3.numero)
@@ -551,10 +588,19 @@ namespace mindruner2
             Info4.Tema = label5.Text;
             Info4.Npregunta = label9.Text;
             Info4.Njugador = "4";
-            button1.Enabled = false;
-            button2.Enabled = false;
-            button3.Enabled = false;
-            button4.Enabled = false;
+
+
+            button1.Visible = false;
+            button2.Visible = false;
+            button3.Visible = false;
+            button4.Visible = false;
+
+
+
+            //button1.Enabled = false;
+            //button2.Enabled = false;
+            //button3.Enabled = false;
+            //button4.Enabled = false;
             btnlanzar.Enabled = true;
 
 
@@ -626,6 +672,11 @@ namespace mindruner2
             Form3jugadores Jugadores = new Form3jugadores();
             Jugadores.Show();
 
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            //button1 = false;
         }
     }
                        

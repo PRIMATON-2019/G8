@@ -365,6 +365,7 @@
             this.button1.TabIndex = 27;
             this.button1.Text = "JUGAR";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Visible = false;
             this.button1.Click += new System.EventHandler(this.Button1_Click_1);
             // 
             // button2
@@ -378,6 +379,7 @@
             this.button2.TabIndex = 28;
             this.button2.Text = "JUGAR";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Visible = false;
             this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // button3
@@ -391,6 +393,7 @@
             this.button3.TabIndex = 29;
             this.button3.Text = "JUGAR";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Visible = false;
             this.button3.Click += new System.EventHandler(this.Button3_Click);
             // 
             // button4
@@ -404,6 +407,7 @@
             this.button4.TabIndex = 30;
             this.button4.Text = "JUGAR";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Visible = false;
             this.button4.Click += new System.EventHandler(this.Button4_Click);
             // 
             // label16
@@ -522,9 +526,11 @@
             this.Controls.Add(this.lbljugador2);
             this.Controls.Add(this.lbljugador1);
             this.Controls.Add(this.btnlanzar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

@@ -48,7 +48,7 @@
             this.btnQuit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnQuit.Font = new System.Drawing.Font("Bradley Hand ITC", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuit.Location = new System.Drawing.Point(405, 215);
-            this.btnQuit.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.btnQuit.Margin = new System.Windows.Forms.Padding(1);
             this.btnQuit.Name = "btnQuit";
             this.btnQuit.Size = new System.Drawing.Size(118, 30);
             this.btnQuit.TabIndex = 2;
@@ -84,7 +84,7 @@
             // 
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label7.Font = new System.Drawing.Font("Bradley Hand ITC", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Bradley Hand ITC", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(161, 15);
             this.label7.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.label7.Name = "label7";
@@ -122,7 +122,7 @@
             this.btnpregunta.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnpregunta.Font = new System.Drawing.Font("Bradley Hand ITC", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnpregunta.Location = new System.Drawing.Point(293, 47);
-            this.btnpregunta.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.btnpregunta.Margin = new System.Windows.Forms.Padding(1);
             this.btnpregunta.Name = "btnpregunta";
             this.btnpregunta.Size = new System.Drawing.Size(110, 31);
             this.btnpregunta.TabIndex = 14;
@@ -146,7 +146,7 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(261, 47);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(1);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(14, 13);
             this.radioButton1.TabIndex = 20;
@@ -157,7 +157,7 @@
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(319, 146);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(1);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(14, 13);
             this.radioButton2.TabIndex = 21;
@@ -168,7 +168,7 @@
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.Location = new System.Drawing.Point(267, 247);
-            this.radioButton3.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(1);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(14, 13);
             this.radioButton3.TabIndex = 22;
@@ -181,7 +181,7 @@
             this.btnok.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnok.Font = new System.Drawing.Font("Bradley Hand ITC", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnok.Location = new System.Drawing.Point(405, 248);
-            this.btnok.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnok.Margin = new System.Windows.Forms.Padding(2);
             this.btnok.Name = "btnok";
             this.btnok.Size = new System.Drawing.Size(118, 30);
             this.btnok.TabIndex = 49;
@@ -210,7 +210,8 @@
             this.Controls.Add(this.label10);
             this.Controls.Add(this.btnQuit);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(1);
             this.Name = "Naturaleza";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Naturaleza";
