@@ -409,5 +409,14 @@
   <ItemGroup>
     <None Include="Resources\BOTONSALIR.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\negro-frases.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\negro-frases.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\negro-frases1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -77,7 +77,7 @@ namespace mindruner2
                 }
                 else
                 {
-                    MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
+                    MessageBox.Show("INCORRECTO, LA RESPUESTA CORRECTA ES LA N." + "..." + Convert.ToString(ValorRespuesta));
                     this.Close();
 
                 }
@@ -92,7 +92,7 @@ namespace mindruner2
                 }
                 else
                 {
-                    MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
+                    MessageBox.Show("INCORRECTO, LA RESPUESTA CORRECTA ES LA N." + "..." + Convert.ToString(ValorRespuesta));
                     this.Close();
                 }
             }
@@ -103,10 +103,11 @@ namespace mindruner2
                     MessageBox.Show("EL RESULTADO ES CORRECTO, HAS GANADO 10 PUNTOS");
                     btnok.Visible = true;
 
+
                 }
                 else
                 {
-                    MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
+                    MessageBox.Show("INCORRECTO, LA RESPUESTA CORRECTA ES LA N." + "..." + Convert.ToString(ValorRespuesta));
                     this.Close();
 
                 }

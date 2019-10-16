@@ -58,7 +58,7 @@ namespace mindruner2
                 }
                 else
                 {
-                    MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
+                    MessageBox.Show("INCORRECTO, LA RESPUESTA CORRECTA ES LA N." + "..." + Convert.ToString(ValorRespuesta));
                     this.Close();
 
                 }
@@ -73,7 +73,7 @@ namespace mindruner2
                 }
                 else
                 {
-                    MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
+                    MessageBox.Show("INCORRECTO, LA RESPUESTA CORRECTA ES LA N." + "..." + Convert.ToString(ValorRespuesta));
                     this.Close();
                 }
             }
@@ -88,7 +88,7 @@ namespace mindruner2
                 }
                 else
                 {
-                    MessageBox.Show("ES INCORRECTO, HAS PERDIDO :( ");
+                    MessageBox.Show("INCORRECTO, LA RESPUESTA CORRECTA ES LA N."+"..."+Convert.ToString(ValorRespuesta));
                     this.Close();
 
                 }

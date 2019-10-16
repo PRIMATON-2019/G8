@@ -61,11 +61,18 @@ namespace mindruner2
 
         private void BtnExit_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("END GAME");
             Application.Exit();
         }
 
         private void BtnCredits_Click(object sender, EventArgs e)
         {
+            
+            
+
+            Form suma1 = new suma1();
+            suma1.Show();
+           
 
             //SoundPlayer NotificacionBoton = new SoundPlayer();
             //NotificacionBoton.SoundLocation= @"C:\Users\maria\source\repos\GrupoPrimaton\G8MartesMadrugada\G8\mindruner2\Sound\FGBS(37).wav";
@@ -73,7 +80,7 @@ namespace mindruner2
 
 
 
-         
+
         }
 
         private void BtnCredits_MouseMove(object sender, MouseEventArgs e)

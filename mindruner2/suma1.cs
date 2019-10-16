@@ -16,11 +16,14 @@ namespace mindruner2
         {
             InitializeComponent();
         }
-        
-        public Suma contador = new Suma();
+
         private void Button1_Click(object sender, EventArgs e)
         {
-            label1.Text = Convert.ToString(contador.SumaPuntaje1());
+            suma1 Inicio = new suma1();
+            Inicio.Close();
+
+            Form Form1 = new Form1();
+            Form1.Show();
             this.Hide();
         }
     }
