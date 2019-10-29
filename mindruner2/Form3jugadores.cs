@@ -42,6 +42,9 @@ namespace mindruner2
         private void Button1_Click(object sender, EventArgs e)
         {
 
+
+
+
             //MessageBox.Show("Usuario 1:" + txt1.Text + "Usuario 2:" + txt2.Text + "Usuario 3:" + txt3.Text + "Usuario 4:" + txt4.Text);
 
             if (txt1.Text + txt2.Text + txt3.Text + txt4.Text == "")

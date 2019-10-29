@@ -207,6 +207,7 @@
             this.Controls.Add(this.btnpregunta);
             this.Controls.Add(this.label2);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "deporte";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

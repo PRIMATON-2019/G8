@@ -29,6 +29,13 @@ namespace mindruner2
 
            
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form1 Inicio = new Form1();
+            Inicio.Show();
+        }
     }
     
 }
